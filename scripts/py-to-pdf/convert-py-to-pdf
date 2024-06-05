@@ -1,0 +1,36 @@
+how to convert python (.py) file to pdf file (.pdf) on linux :
+===============================================================
+
+---------------------------------------------------------------
+link : https://pypi.python.org/pypi/Code2pdf/0.0.1
+
+---------------------------------------------------------------
+install code2pdf package on linux consol :
+
+$ sudo pip install code2pdf
+
+---------------------------------------------------------------
+test if the code2pdf was installed
+
+$code2pdf -h
+
+---------------------------------------------------------------
+Usage
+
+code2pdf [-h] [-l] [-s SIZE] [-S NAME] [-v] filename [outputfile]
+
+---------------------------------------------------------------
+Example :
+
+---------------------------------------------------------------
+& code2pdf /home/person/myprog.py
+
+Result : /home/person/myprog.pdf
+---------------------------------------------------------------
+or
+
+---------------------------------------------------------------
+& code2pdf /home/person/myprog.py /home/person/newFile.pdf
+
+Result : /home/person/newFile.pdf
+---------------------------------------------------------------

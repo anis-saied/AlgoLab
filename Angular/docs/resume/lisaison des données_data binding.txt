@@ -1,0 +1,21 @@
+lisaison des données : data binding
+
+code ts <-> template
+
+types de lisaison de données pour le cas : code ts -> template
+---------------------------------------------------------------
+
+1.interpolation
+----------------
+ : dans la template : {{ }}
+{{nom de variable}}
+{{nom de méthode ()}}
+
+
+
+2. property binding (lisaison par propriété)
+--------------------------------------------
+[html property] ==> cette html property est conditionnée
+[disabled]="!isAuth" ==> cette property sera exécutée dans la template
+							si la propriété isAuth est false
+							! : not

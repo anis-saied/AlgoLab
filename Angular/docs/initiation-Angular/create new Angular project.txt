@@ -1,0 +1,41 @@
+﻿----------------------------------------------
+create new Angular project:
+---------------------------
+>>> ng new hello-world
+
+in VS code
+shift + ctrl + P  ==> open the command palette
+
+macke sure that this application works:
+=> use the Angular CLI to load the application in a web server
+>>> ng serve
+==> http://localhost:4200
+==> angular cli : compile the application and generate
+	main.bundles.js for javascript file
+	styles.bundels.css for css file
+
+open in Chrome : http://localhost:4200
+
+Now, run this command 
+>>> ng server –open
+by which the NG live development server will start and –open will open the browser immediately after the server starts.
+
+source : how to create first Angular app
+https://www.c-sharpcorner.com/article/build-or-set-up-your-first-angular-app-with-visual-studio-code/
+
+-------------------------------------------------------------------------------------------------------------------
+usefull packages:
+-----------------
+- Angular code snippets (https://blog.codewithdan.com/angular-2-typescript-and-html-snippets-for-vs-code/)
+
+
+
+-------------------------------------------------------------------------------------------------------------------
+VERSIONS SITES:
+--------------
+updates in every new version:
+https://github.com/angular/angular/blob/master/CHANGELOG.md
+
+news about angular:
+https://blog.angular.io
+

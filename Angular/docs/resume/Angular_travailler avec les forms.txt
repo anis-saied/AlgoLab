@@ -1,0 +1,35 @@
+Angular: travailler avec les forms
+
+1.
+app/app.module.ts
+------------------
+ajouter
+import { FormsModule } from '@angular/forms';
+imports: [...,FormsModule],
+
+2.
+app/my-component/my-component.component.html
+--------------------------------------------
+<from>
+<input name="email"  [(ngModel)]="email"/>
+<button type="button" (click)="onLogin()"> Login </button>
+</form>
+
+
+3.
+app/my-component/my-component.component.ts
+--------------------------------------------
+  public email: string;
+  public password: string;
+
+  constructor() {
+    this.email = 'admin@sarrachimie.tn';
+    this.password = '******';
+  }
+
+  ngOnInit(): void {}
+
+  onLogin() {
+    console.log('email:' + this.email);
+    console.log('password:' + this.password);
+  }

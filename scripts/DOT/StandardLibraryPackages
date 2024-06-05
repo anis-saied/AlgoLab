@@ -1,0 +1,24 @@
+digraph StandardLibraryPackages {
+	rankdir=TB
+	fontname=Arial
+	os [label=os fillcolor=lightblue shape=box style=filled]
+	sys [label=sys fillcolor=lightblue shape=box style=filled]
+	math [label=math fillcolor=lightblue shape=box style=filled]
+	json [label=json fillcolor=lightblue shape=box style=filled]
+	datetime [label=datetime fillcolor=lightblue shape=box style=filled]
+	re [label=re fillcolor=lightblue shape=box style=filled]
+	collections [label=collections fillcolor=lightblue shape=box style=filled]
+	random [label=random fillcolor=lightblue shape=box style=filled]
+	csv [label=csv fillcolor=lightblue shape=box style=filled]
+	urllib [label=urllib fillcolor=lightblue shape=box style=filled]
+	os -> sys
+	os -> json
+	sys -> math
+	json -> datetime
+	re -> sys
+	collections -> json
+	collections -> csv
+	random -> sys
+	csv -> datetime
+	urllib -> os
+}

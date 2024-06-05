@@ -1,0 +1,39 @@
+créer un nouveau projet angular à l'aide de l'outil CLI
+----------------------------------
+
+>>>ng new mon_projet
+>>>ng new mon_projet --style=scss --skip-tests=true
+
+--------------------------------------------------------
+naviguer dans le projet et installer les packages suivants:
+1.
+>>> cd mon_projet 
+
+2.
+>>> npm install bootstrap --save
+
+le flag --save : pour ajouter bootstrap au package.json du projet
+note : il faut ensuite ajouter bootstrap à l'application 
+(car il est ajouté au projet et pas encore à l'application)
+
+
+3.
+==> ajouter dans le fichier angular.json > architect > style 
+	"./node_modules/bootstrap/dist/css/bootstrap.css",
+	
+	
+4.
+>>> npm install rxjs  --save
+
+rxjs-compact : pour la compatibilité des ovservables
+
+
+--------------------------------------------------------
+lancer le serveur de développement: 
+>>> ng serve
+
+--------------------------------------------------------
+pour suivre l'avancement de l'application dans l'environnement de développement
+http://localhost:4200
+
+

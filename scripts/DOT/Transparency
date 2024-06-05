@@ -1,0 +1,18 @@
+graph Transparency {
+	node [label="" shape=circle style=filled width=2.22]
+	layout=neato
+	start=11
+	bgcolor="#0000ff11"
+	5 [label=module5 color="#0000ff80"]
+	6 [label=module6 color="#ee00ee80"]
+	1 [label=module1 color="#ff000080"]
+	2 [label=module2 color="#eeee0080"]
+	3 [label=module3 color="#00ff0080"]
+	4 [label=module4 color="#00eeee80"]
+	1 -- 2
+	2 -- 3
+	3 -- 4
+	4 -- 5
+	5 -- 6
+	6 -- 1
+}

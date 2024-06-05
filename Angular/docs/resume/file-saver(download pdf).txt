@@ -1,0 +1,45 @@
+    /********************************************** install ********************/
+	https://www.npmjs.com/package/file-saver
+  https://www.freakyjolly.com/angular-7-8-9-download-pdf-files-in-browser-instead-of-opening-in-new-tab-quick-solution/#.X__6u3ZKhdg
+  /********************************************** ts ********************/
+
+import { saveAs } from 'file-saver';
+declare var require: any
+const FileSaver = require('file-saver');
+
+
+
+downloadPdf(reference: number) {
+    const pdfUrl = "./assets/pdf/invoice/facture_" + reference  +  ".pdf";
+    const pdfName = "facture_" + reference  +  ".pdf"; //this name is correct
+    FileSaver.saveAs(pdfUrl, pdfName);
+  }
+
+  generateAndDownloadPdf(salesInvoiceId: number, reference: number) {
+    //generate pdf
+    this.waitForGeneratingAndDownloadingPDF = true;
+    this.salesInvoiceService
+      .createSalesInvoicePDF(salesInvoiceId)
+      .subscribe(
+        (response) => {
+          this.waitForGeneratingAndDownloadingPDF = false;
+        },
+        (error) => {
+          console.log(error);
+          this.waitForGeneratingAndDownloadingPDF = false;
+        }
+      )
+      .add((data) => {
+        //download pdf
+        this.downloadPdf(reference);
+      });
+  }
+  
+  /********************************************** html ********************/
+<button
+  ngbDropdownItem
+  (click)="generateAndDownloadPdf(salesInvoice.id,salesInvoice.reference)"
+>
+  PDF
+</button>   
+

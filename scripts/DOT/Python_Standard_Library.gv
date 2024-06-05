@@ -1,0 +1,422 @@
+digraph Python_Standard_Library {
+	rankdir=LR
+	node [shape=box]
+	node [color=lightgray style=filled]
+	Python_Standard_Library [label="La bibliothèque standard Python" color=orange]
+	"Fonctions_Intégrées" [label="Fonctions_Intégrées" color=lightblue]
+	Python_Standard_Library -> "Fonctions_Intégrées"
+	"abs()" [label="abs()"]
+	"Fonctions_Intégrées" -> "abs()"
+	"aiter()" [label="aiter()"]
+	"Fonctions_Intégrées" -> "aiter()"
+	"all()" [label="all()"]
+	"Fonctions_Intégrées" -> "all()"
+	"anext()" [label="anext()"]
+	"Fonctions_Intégrées" -> "anext()"
+	"any()" [label="any()"]
+	"Fonctions_Intégrées" -> "any()"
+	"ascii()" [label="ascii()"]
+	"Fonctions_Intégrées" -> "ascii()"
+	"bin()" [label="bin()"]
+	"Fonctions_Intégrées" -> "bin()"
+	"bool()" [label="bool()"]
+	"Fonctions_Intégrées" -> "bool()"
+	"breakpoint()" [label="breakpoint()"]
+	"Fonctions_Intégrées" -> "breakpoint()"
+	"bytearray()" [label="bytearray()"]
+	"Fonctions_Intégrées" -> "bytearray()"
+	"bytes()" [label="bytes()"]
+	"Fonctions_Intégrées" -> "bytes()"
+	"callable()" [label="callable()"]
+	"Fonctions_Intégrées" -> "callable()"
+	"chr()" [label="chr()"]
+	"Fonctions_Intégrées" -> "chr()"
+	"classmethod()" [label="classmethod()"]
+	"Fonctions_Intégrées" -> "classmethod()"
+	"compile()" [label="compile()"]
+	"Fonctions_Intégrées" -> "compile()"
+	"complex()" [label="complex()"]
+	"Fonctions_Intégrées" -> "complex()"
+	"delattr()" [label="delattr()"]
+	"Fonctions_Intégrées" -> "delattr()"
+	"dict()" [label="dict()"]
+	"Fonctions_Intégrées" -> "dict()"
+	"dir()" [label="dir()"]
+	"Fonctions_Intégrées" -> "dir()"
+	"divmod()" [label="divmod()"]
+	"Fonctions_Intégrées" -> "divmod()"
+	"enumerate()" [label="enumerate()"]
+	"Fonctions_Intégrées" -> "enumerate()"
+	"eval()" [label="eval()"]
+	"Fonctions_Intégrées" -> "eval()"
+	"exec()" [label="exec()"]
+	"Fonctions_Intégrées" -> "exec()"
+	"filter()" [label="filter()"]
+	"Fonctions_Intégrées" -> "filter()"
+	"float()" [label="float()"]
+	"Fonctions_Intégrées" -> "float()"
+	"format()" [label="format()"]
+	"Fonctions_Intégrées" -> "format()"
+	"frozenset()" [label="frozenset()"]
+	"Fonctions_Intégrées" -> "frozenset()"
+	"getattr()" [label="getattr()"]
+	"Fonctions_Intégrées" -> "getattr()"
+	"globals()" [label="globals()"]
+	"Fonctions_Intégrées" -> "globals()"
+	"hasattr()" [label="hasattr()"]
+	"Fonctions_Intégrées" -> "hasattr()"
+	"hash()" [label="hash()"]
+	"Fonctions_Intégrées" -> "hash()"
+	"help()" [label="help()"]
+	"Fonctions_Intégrées" -> "help()"
+	"hex()" [label="hex()"]
+	"Fonctions_Intégrées" -> "hex()"
+	"id()" [label="id()"]
+	"Fonctions_Intégrées" -> "id()"
+	"input()" [label="input()"]
+	"Fonctions_Intégrées" -> "input()"
+	"int()" [label="int()"]
+	"Fonctions_Intégrées" -> "int()"
+	"isinstance()" [label="isinstance()"]
+	"Fonctions_Intégrées" -> "isinstance()"
+	"issubclass()" [label="issubclass()"]
+	"Fonctions_Intégrées" -> "issubclass()"
+	"iter()" [label="iter()"]
+	"Fonctions_Intégrées" -> "iter()"
+	"len()" [label="len()"]
+	"Fonctions_Intégrées" -> "len()"
+	"list()" [label="list()"]
+	"Fonctions_Intégrées" -> "list()"
+	"locals()" [label="locals()"]
+	"Fonctions_Intégrées" -> "locals()"
+	"map()" [label="map()"]
+	"Fonctions_Intégrées" -> "map()"
+	"max()" [label="max()"]
+	"Fonctions_Intégrées" -> "max()"
+	"memoryview()" [label="memoryview()"]
+	"Fonctions_Intégrées" -> "memoryview()"
+	"min()" [label="min()"]
+	"Fonctions_Intégrées" -> "min()"
+	"next()" [label="next()"]
+	"Fonctions_Intégrées" -> "next()"
+	"object()" [label="object()"]
+	"Fonctions_Intégrées" -> "object()"
+	"oct()" [label="oct()"]
+	"Fonctions_Intégrées" -> "oct()"
+	"open()" [label="open()"]
+	"Fonctions_Intégrées" -> "open()"
+	"ord()" [label="ord()"]
+	"Fonctions_Intégrées" -> "ord()"
+	"pow()" [label="pow()"]
+	"Fonctions_Intégrées" -> "pow()"
+	"print()" [label="print()"]
+	"Fonctions_Intégrées" -> "print()"
+	"property()" [label="property()"]
+	"Fonctions_Intégrées" -> "property()"
+	"range()" [label="range()"]
+	"Fonctions_Intégrées" -> "range()"
+	"repr()" [label="repr()"]
+	"Fonctions_Intégrées" -> "repr()"
+	"reversed()" [label="reversed()"]
+	"Fonctions_Intégrées" -> "reversed()"
+	"round()" [label="round()"]
+	"Fonctions_Intégrées" -> "round()"
+	"set()" [label="set()"]
+	"Fonctions_Intégrées" -> "set()"
+	"setattr()" [label="setattr()"]
+	"Fonctions_Intégrées" -> "setattr()"
+	"slice()" [label="slice()"]
+	"Fonctions_Intégrées" -> "slice()"
+	"sorted()" [label="sorted()"]
+	"Fonctions_Intégrées" -> "sorted()"
+	"staticmethod()" [label="staticmethod()"]
+	"Fonctions_Intégrées" -> "staticmethod()"
+	"str()" [label="str()"]
+	"Fonctions_Intégrées" -> "str()"
+	"sum()" [label="sum()"]
+	"Fonctions_Intégrées" -> "sum()"
+	"super()" [label="super()"]
+	"Fonctions_Intégrées" -> "super()"
+	"tuple()" [label="tuple()"]
+	"Fonctions_Intégrées" -> "tuple()"
+	"type()" [label="type()"]
+	"Fonctions_Intégrées" -> "type()"
+	"vars()" [label="vars()"]
+	"Fonctions_Intégrées" -> "vars()"
+	"abs()_role" [label="Retourne la valeur absolue d'un nombre." align=left color=lightblue shape=box style=filled]
+	"abs()" -> "abs()_role"
+	"abs()_example" [label="abs(-5) => 5" align=left color=lightgreen shape=box style=filled]
+	"abs()" -> "abs()_example"
+	"aiter()_role" [label="Crée un itérateur asynchrone pour un itérable." align=left color=lightblue shape=box style=filled]
+	"aiter()" -> "aiter()_role"
+	"aiter()_example" [label="aiter(my_list)" align=left color=lightgreen shape=box style=filled]
+	"aiter()" -> "aiter()_example"
+	"all()_role" [label="Retourne True si tous les éléments d'un itérable sont vrais, sinon False." align=left color=lightblue shape=box style=filled]
+	"all()" -> "all()_role"
+	"all()_example" [label="all([True, True, False]) => False" align=left color=lightgreen shape=box style=filled]
+	"all()" -> "all()_example"
+	"anext()_role" [label="Récupère le prochain élément d'un itérable asynchrone." align=left color=lightblue shape=box style=filled]
+	"anext()" -> "anext()_role"
+	"anext()_example" [label="anext(my_async_iterator)" align=left color=lightgreen shape=box style=filled]
+	"anext()" -> "anext()_example"
+	"any()_role" [label="Retourne True si au moins un élément d'un itérable est vrai, sinon False." align=left color=lightblue shape=box style=filled]
+	"any()" -> "any()_role"
+	"any()_example" [label="any([False, False, True]) => True" align=left color=lightgreen shape=box style=filled]
+	"any()" -> "any()_example"
+	"ascii()_role" [label="Renvoie une représentation ASCII de l'objet." align=left color=lightblue shape=box style=filled]
+	"ascii()" -> "ascii()_role"
+	"ascii()_example" [label="ascii('é') => '\xe9'" align=left color=lightgreen shape=box style=filled]
+	"ascii()" -> "ascii()_example"
+	"bin()_role" [label="Convertit un entier en chaîne binaire préfixée par \"0b\"." align=left color=lightblue shape=box style=filled]
+	"bin()" -> "bin()_role"
+	"bin()_example" [label="bin(10) => '0b1010'" align=left color=lightgreen shape=box style=filled]
+	"bin()" -> "bin()_example"
+	"bool()_role" [label="Convertit une valeur en booléen (True ou False)." align=left color=lightblue shape=box style=filled]
+	"bool()" -> "bool()_role"
+	"bool()_example" [label="bool(0) => False" align=left color=lightgreen shape=box style=filled]
+	"bool()" -> "bool()_example"
+	"breakpoint()_role" [label="Interrompt l'exécution et ouvre un débogueur (disponible à partir de Python 3.7)." align=left color=lightblue shape=box style=filled]
+	"breakpoint()" -> "breakpoint()_role"
+	"breakpoint()_example" [label="breakpoint()" align=left color=lightgreen shape=box style=filled]
+	"breakpoint()" -> "breakpoint()_example"
+	"bytearray()_role" [label="Crée un tableau de bytes modifiable." align=left color=lightblue shape=box style=filled]
+	"bytearray()" -> "bytearray()_role"
+	"bytearray()_example" [label="bytearray(b'hello')" align=left color=lightgreen shape=box style=filled]
+	"bytearray()" -> "bytearray()_example"
+	"bytes()_role" [label="Convertit une séquence de nombres en un objet bytes." align=left color=lightblue shape=box style=filled]
+	"bytes()" -> "bytes()_role"
+	"bytes()_example" [label="bytes([65, 66, 67]) => b'ABC'" align=left color=lightgreen shape=box style=filled]
+	"bytes()" -> "bytes()_example"
+	"callable()_role" [label="Renvoie True si l'objet peut être appelé comme une fonction, sinon False." align=left color=lightblue shape=box style=filled]
+	"callable()" -> "callable()_role"
+	"callable()_example" [label="callable(my_function) => True" align=left color=lightgreen shape=box style=filled]
+	"callable()" -> "callable()_example"
+	"chr()_role" [label="Convertit un entier en un caractère Unicode." align=left color=lightblue shape=box style=filled]
+	"chr()" -> "chr()_role"
+	"chr()_example" [label="chr(65) => 'A'" align=left color=lightgreen shape=box style=filled]
+	"chr()" -> "chr()_example"
+	"classmethod()_role" [label="Convertit une méthode en méthode de classe." align=left color=lightblue shape=box style=filled]
+	"classmethod()" -> "classmethod()_role"
+	"classmethod()_example" [label="classmethod(my_method)" align=left color=lightgreen shape=box style=filled]
+	"classmethod()" -> "classmethod()_example"
+	"compile()_role" [label="Compile du code source Python en un objet code ou AST." align=left color=lightblue shape=box style=filled]
+	"compile()" -> "compile()_role"
+	"compile()_example" [label="compile('print(\"Hello\")', '', 'exec')" align=left color=lightgreen shape=box style=filled]
+	"compile()" -> "compile()_example"
+	"complex()_role" [label="Crée un nombre complexe à partir de parties réelles et imaginaires." align=left color=lightblue shape=box style=filled]
+	"complex()" -> "complex()_role"
+	"complex()_example" [label="complex(3, 4) => 3+4j" align=left color=lightgreen shape=box style=filled]
+	"complex()" -> "complex()_example"
+	"delattr()_role" [label="Supprime un attribut d'un objet." align=left color=lightblue shape=box style=filled]
+	"delattr()" -> "delattr()_role"
+	"delattr()_example" [label="delattr(my_object, 'attr_name')" align=left color=lightgreen shape=box style=filled]
+	"delattr()" -> "delattr()_example"
+	"dict()_role" [label="Crée un nouveau dictionnaire (table de hachage)." align=left color=lightblue shape=box style=filled]
+	"dict()" -> "dict()_role"
+	"dict()_example" [label="dict(a=1, b=2) => {'a': 1, 'b': 2}" align=left color=lightgreen shape=box style=filled]
+	"dict()" -> "dict()_example"
+	"dir()_role" [label="Renvoie la liste des noms dans l'espace de noms local ou de l'objet." align=left color=lightblue shape=box style=filled]
+	"dir()" -> "dir()_role"
+	"dir()_example" [label="dir()" align=left color=lightgreen shape=box style=filled]
+	"dir()" -> "dir()_example"
+	"divmod()_role" [label="Effectue une division et renvoie le quotient et le reste." align=left color=lightblue shape=box style=filled]
+	"divmod()" -> "divmod()_role"
+	"divmod()_example" [label="divmod(10, 3) => (3, 1)" align=left color=lightgreen shape=box style=filled]
+	"divmod()" -> "divmod()_example"
+	"enumerate()_role" [label="Renvoie un itérable d'indices et d'éléments." align=left color=lightblue shape=box style=filled]
+	"enumerate()" -> "enumerate()_role"
+	"enumerate()_example" [label="enumerate(['a', 'b', 'c'])" align=left color=lightgreen shape=box style=filled]
+	"enumerate()" -> "enumerate()_example"
+	"eval()_role" [label="Évalue une expression Python depuis une chaîne." align=left color=lightblue shape=box style=filled]
+	"eval()" -> "eval()_role"
+	"eval()_example" [label="eval('2 + 2') => 4" align=left color=lightgreen shape=box style=filled]
+	"eval()" -> "eval()_example"
+	"exec()_role" [label="Exécute du code Python à partir d'une chaîne ou d'un objet code." align=left color=lightblue shape=box style=filled]
+	"exec()" -> "exec()_role"
+	"exec()_example" [label="exec('print(\"Hello\")')" align=left color=lightgreen shape=box style=filled]
+	"exec()" -> "exec()_example"
+	"filter()_role" [label="Filtre les éléments d'un itérable avec une fonction de filtrage." align=left color=lightblue shape=box style=filled]
+	"filter()" -> "filter()_role"
+	"filter()_example" [label="filter(None, [0, 1, 2]) => [1, 2]" align=left color=lightgreen shape=box style=filled]
+	"filter()" -> "filter()_example"
+	"float()_role" [label="Convertit un nombre ou une chaîne en un nombre à virgule flottante." align=left color=lightblue shape=box style=filled]
+	"float()" -> "float()_role"
+	"float()_example" [label="float(3.14) => 3.14" align=left color=lightgreen shape=box style=filled]
+	"float()" -> "float()_example"
+	"format()_role" [label="Formate une valeur en une chaîne en utilisant des spécificateurs de format." align=left color=lightblue shape=box style=filled]
+	"format()" -> "format()_role"
+	"format()_example" [label="format(3.14159, \".2f\") => '3.14'" align=left color=lightgreen shape=box style=filled]
+	"format()" -> "format()_example"
+	"frozenset()_role" [label="Crée un ensemble non modifiable." align=left color=lightblue shape=box style=filled]
+	"frozenset()" -> "frozenset()_role"
+	"frozenset()_example" [label="frozenset([1, 2, 3])" align=left color=lightgreen shape=box style=filled]
+	"frozenset()" -> "frozenset()_example"
+	"getattr()_role" [label="Renvoie la valeur d'un attribut d'un objet." align=left color=lightblue shape=box style=filled]
+	"getattr()" -> "getattr()_role"
+	"getattr()_example" [label="getattr(my_object, 'attr_name')" align=left color=lightgreen shape=box style=filled]
+	"getattr()" -> "getattr()_example"
+	"globals()_role" [label="Renvoie un dictionnaire représentant l'espace de noms global actuel." align=left color=lightblue shape=box style=filled]
+	"globals()" -> "globals()_role"
+	"globals()_example" [label="globals()" align=left color=lightgreen shape=box style=filled]
+	"globals()" -> "globals()_example"
+	"hasattr()_role" [label="Renvoie True si un objet a un attribut donné, sinon False." align=left color=lightblue shape=box style=filled]
+	"hasattr()" -> "hasattr()_role"
+	"hasattr()_example" [label="hasattr(my_object, 'attr_name')" align=left color=lightgreen shape=box style=filled]
+	"hasattr()" -> "hasattr()_example"
+	"hash()_role" [label="Calcule la valeur de hachage (hash) d'un objet." align=left color=lightblue shape=box style=filled]
+	"hash()" -> "hash()_role"
+	"hash()_example" [label="hash('hello')" align=left color=lightgreen shape=box style=filled]
+	"hash()" -> "hash()_example"
+	"help()_role" [label="Affiche l'aide interactive pour un objet." align=left color=lightblue shape=box style=filled]
+	"help()" -> "help()_role"
+	"help()_example" [label="help(list)" align=left color=lightgreen shape=box style=filled]
+	"help()" -> "help()_example"
+	"hex()_role" [label="Convertit un entier en une chaîne hexadécimale préfixée par \"0x\"." align=left color=lightblue shape=box style=filled]
+	"hex()" -> "hex()_role"
+	"hex()_example" [label="hex(255) => '0xff'" align=left color=lightgreen shape=box style=filled]
+	"hex()" -> "hex()_example"
+	"id()_role" [label="Renvoie l'identifiant unique d'un objet." align=left color=lightblue shape=box style=filled]
+	"id()" -> "id()_role"
+	"id()_example" [label="id(my_object)" align=left color=lightgreen shape=box style=filled]
+	"id()" -> "id()_example"
+	"input()_role" [label="Lit une ligne depuis l'entrée standard (généralement le clavier)." align=left color=lightblue shape=box style=filled]
+	"input()" -> "input()_role"
+	"input()_example" [label="input('Entrez quelque chose : ')" align=left color=lightgreen shape=box style=filled]
+	"input()" -> "input()_example"
+	"int()_role" [label="Convertit un nombre ou une chaîne en un entier." align=left color=lightblue shape=box style=filled]
+	"int()" -> "int()_role"
+	"int()_example" [label="int('42') => 42" align=left color=lightgreen shape=box style=filled]
+	"int()" -> "int()_example"
+	"isinstance()_role" [label="Renvoie True si un objet est une instance d'une classe donnée, sinon False." align=left color=lightblue shape=box style=filled]
+	"isinstance()" -> "isinstance()_role"
+	"isinstance()_example" [label="isinstance(my_object, int) => True" align=left color=lightgreen shape=box style=filled]
+	"isinstance()" -> "isinstance()_example"
+	"issubclass()_role" [label="Renvoie True si une classe est une sous-classe d'une classe donnée, sinon False." align=left color=lightblue shape=box style=filled]
+	"issubclass()" -> "issubclass()_role"
+	"issubclass()_example" [label="issubclass(MyClass, ParentClass)" align=left color=lightgreen shape=box style=filled]
+	"issubclass()" -> "issubclass()_example"
+	"iter()_role" [label="Renvoie un itérable à partir d'un objet itérable." align=left color=lightblue shape=box style=filled]
+	"iter()" -> "iter()_role"
+	"iter()_example" [label="iter([1, 2, 3])" align=left color=lightgreen shape=box style=filled]
+	"iter()" -> "iter()_example"
+	"len()_role" [label="Renvoie la longueur (nombre d'éléments) d'un objet." align=left color=lightblue shape=box style=filled]
+	"len()" -> "len()_role"
+	"len()_example" [label="len([1, 2, 3]) => 3" align=left color=lightgreen shape=box style=filled]
+	"len()" -> "len()_example"
+	"list()_role" [label="Crée une nouvelle liste." align=left color=lightblue shape=box style=filled]
+	"list()" -> "list()_role"
+	"list()_example" [label="list([1, 2, 3]) => [1, 2, 3]" align=left color=lightgreen shape=box style=filled]
+	"list()" -> "list()_example"
+	"locals()_role" [label="Renvoie un dictionnaire représentant l'espace de noms local actuel." align=left color=lightblue shape=box style=filled]
+	"locals()" -> "locals()_role"
+	"locals()_example" [label="locals()" align=left color=lightgreen shape=box style=filled]
+	"locals()" -> "locals()_example"
+	"map()_role" [label="Applique une fonction à tous les éléments d'un itérable." align=left color=lightblue shape=box style=filled]
+	"map()" -> "map()_role"
+	"map()_example" [label="map(square, [1, 2, 3])" align=left color=lightgreen shape=box style=filled]
+	"map()" -> "map()_example"
+	"max()_role" [label="Renvoie le plus grand élément d'un itérable." align=left color=lightblue shape=box style=filled]
+	"max()" -> "max()_role"
+	"max()_example" [label="max([1, 2, 3]) => 3" align=left color=lightgreen shape=box style=filled]
+	"max()" -> "max()_example"
+	"memoryview()_role" [label="Crée un objet \"memory view\" de la mémoire d'un objet." align=left color=lightblue shape=box style=filled]
+	"memoryview()" -> "memoryview()_role"
+	"memoryview()_example" [label="memoryview(my_array)" align=left color=lightgreen shape=box style=filled]
+	"memoryview()" -> "memoryview()_example"
+	"min()_role" [label="Renvoie le plus petit élément d'un itérable." align=left color=lightblue shape=box style=filled]
+	"min()" -> "min()_role"
+	"min()_example" [label="min([1, 2, 3]) => 1" align=left color=lightgreen shape=box style=filled]
+	"min()" -> "min()_example"
+	"next()_role" [label="Renvoie le prochain élément d'un itérable." align=left color=lightblue shape=box style=filled]
+	"next()" -> "next()_role"
+	"next()_example" [label="next(my_iterator)" align=left color=lightgreen shape=box style=filled]
+	"next()" -> "next()_example"
+	"object()_role" [label="Crée une nouvelle instance de la classe \"object\"." align=left color=lightblue shape=box style=filled]
+	"object()" -> "object()_role"
+	"object()_example" [label="object()" align=left color=lightgreen shape=box style=filled]
+	"object()" -> "object()_example"
+	"oct()_role" [label="Convertit un entier en une chaîne octale préfixée par \"0o\"." align=left color=lightblue shape=box style=filled]
+	"oct()" -> "oct()_role"
+	"oct()_example" [label="oct(8) => '0o10'" align=left color=lightgreen shape=box style=filled]
+	"oct()" -> "oct()_example"
+	"open()_role" [label="Ouvre un fichier pour lecture ou écriture." align=left color=lightblue shape=box style=filled]
+	"open()" -> "open()_role"
+	"open()_example" [label="with open('file.txt', 'r') as file:" align=left color=lightgreen shape=box style=filled]
+	"open()" -> "open()_example"
+	"ord()_role" [label="Renvoie la valeur entière Unicode d'un caractère." align=left color=lightblue shape=box style=filled]
+	"ord()" -> "ord()_role"
+	"ord()_example" [label="ord('A') => 65" align=left color=lightgreen shape=box style=filled]
+	"ord()" -> "ord()_example"
+	"pow()_role" [label="Calcule la puissance d'un nombre." align=left color=lightblue shape=box style=filled]
+	"pow()" -> "pow()_role"
+	"pow()_example" [label="pow(2, 3) => 8" align=left color=lightgreen shape=box style=filled]
+	"pow()" -> "pow()_example"
+	"print()_role" [label="Affiche des valeurs à l'écran (dans la sortie standard)." align=left color=lightblue shape=box style=filled]
+	"print()" -> "print()_role"
+	"print()_example" [label="print('Hello, world!')" align=left color=lightgreen shape=box style=filled]
+	"print()" -> "print()_example"
+	"property()_role" [label="Convertit une méthode en une propriété." align=left color=lightblue shape=box style=filled]
+	"property()" -> "property()_role"
+	"property()_example" [label="property(my_method)" align=left color=lightgreen shape=box style=filled]
+	"property()" -> "property()_example"
+	"range()_role" [label="Renvoie une séquence d'entiers." align=left color=lightblue shape=box style=filled]
+	"range()" -> "range()_role"
+	"range()_example" [label="range(5) => [0, 1, 2, 3, 4]" align=left color=lightgreen shape=box style=filled]
+	"range()" -> "range()_example"
+	"repr()_role" [label="Renvoie une représentation sous forme de chaîne d'un objet." align=left color=lightblue shape=box style=filled]
+	"repr()" -> "repr()_role"
+	"repr()_example" [label="repr('hello') => ''hello''" align=left color=lightgreen shape=box style=filled]
+	"repr()" -> "repr()_example"
+	"reversed()_role" [label="Renvoie un itérable de la séquence en sens inverse." align=left color=lightblue shape=box style=filled]
+	"reversed()" -> "reversed()_role"
+	"reversed()_example" [label="reversed([1, 2, 3])" align=left color=lightgreen shape=box style=filled]
+	"reversed()" -> "reversed()_example"
+	"round()_role" [label="Arrondit un nombre à un nombre donné de décimales." align=left color=lightblue shape=box style=filled]
+	"round()" -> "round()_role"
+	"round()_example" [label="round(3.14159, 2) => 3.14" align=left color=lightgreen shape=box style=filled]
+	"round()" -> "round()_example"
+	"set()_role" [label="Crée un nouvel ensemble." align=left color=lightblue shape=box style=filled]
+	"set()" -> "set()_role"
+	"set()_example" [label="set([1, 2, 3])" align=left color=lightgreen shape=box style=filled]
+	"set()" -> "set()_example"
+	"setattr()_role" [label="Attribue une valeur à un attribut d'un objet." align=left color=lightblue shape=box style=filled]
+	"setattr()" -> "setattr()_role"
+	"setattr()_example" [label="setattr(my_object, 'attr_name', value)" align=left color=lightgreen shape=box style=filled]
+	"setattr()" -> "setattr()_example"
+	"slice()_role" [label="Crée un objet \"slice\" pour accéder à une partie d'une séquence." align=left color=lightblue shape=box style=filled]
+	"slice()" -> "slice()_role"
+	"slice()_example" [label="slice(1, 3)" align=left color=lightgreen shape=box style=filled]
+	"slice()" -> "slice()_example"
+	"sorted()_role" [label="Renvoie une liste triée d'éléments d'un itérable." align=left color=lightblue shape=box style=filled]
+	"sorted()" -> "sorted()_role"
+	"sorted()_example" [label="sorted([3, 1, 2]) => [1, 2, 3]" align=left color=lightgreen shape=box style=filled]
+	"sorted()" -> "sorted()_example"
+	"staticmethod()_role" [label="Convertit une méthode en méthode statique." align=left color=lightblue shape=box style=filled]
+	"staticmethod()" -> "staticmethod()_role"
+	"staticmethod()_example" [label="staticmethod(my_method)" align=left color=lightgreen shape=box style=filled]
+	"staticmethod()" -> "staticmethod()_example"
+	"str()_role" [label="Convertit un objet en chaîne de caractères." align=left color=lightblue shape=box style=filled]
+	"str()" -> "str()_role"
+	"str()_example" [label="str(42) => '42'" align=left color=lightgreen shape=box style=filled]
+	"str()" -> "str()_example"
+	"sum()_role" [label="Calcule la somme des éléments d'un itérable." align=left color=lightblue shape=box style=filled]
+	"sum()" -> "sum()_role"
+	"sum()_example" [label="sum([1, 2, 3]) => 6" align=left color=lightgreen shape=box style=filled]
+	"sum()" -> "sum()_example"
+	"super()_role" [label="Renvoie un objet \"super\" utilisé pour accéder aux méthodes parentes." align=left color=lightblue shape=box style=filled]
+	"super()" -> "super()_role"
+	"super()_example" [label="super()" align=left color=lightgreen shape=box style=filled]
+	"super()" -> "super()_example"
+	"tuple()_role" [label="Crée un nouveau tuple." align=left color=lightblue shape=box style=filled]
+	"tuple()" -> "tuple()_role"
+	"tuple()_example" [label="tuple([1, 2, 3]) => (1, 2, 3)" align=left color=lightgreen shape=box style=filled]
+	"tuple()" -> "tuple()_example"
+	"type()_role" [label="Renvoie le type d'un objet (classe)." align=left color=lightblue shape=box style=filled]
+	"type()" -> "type()_role"
+	"type()_example" [label="type(3.14) => <class 'float'>" align=left color=lightgreen shape=box style=filled]
+	"type()" -> "type()_example"
+	"vars()_role" [label="Renvoie le dictionnaire __dict__ d'un module, d'une classe ou d'une instance." align=left color=lightblue shape=box style=filled]
+	"vars()" -> "vars()_role"
+	"vars()_example" [label="vars(my_object)" align=left color=lightgreen shape=box style=filled]
+	"vars()" -> "vars()_example"
+}

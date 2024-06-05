@@ -1,0 +1,741 @@
+digraph PythonStandardLibrary {
+	rankdir=LR
+	fontname=Arial
+	root [label="The Python Standard Library" fillcolor=lightblue shape=box style=filled]
+	"Fonctions intégrées" [label="Fonctions intégrées" fillcolor=lightgreen shape=box style=filled]
+	"abs()" [label="abs()" shape=ellipse]
+	"Fonctions intégrées" -> "abs()"
+	"aiter()" [label="aiter()" shape=ellipse]
+	"Fonctions intégrées" -> "aiter()"
+	"all()" [label="all()" shape=ellipse]
+	"Fonctions intégrées" -> "all()"
+	"anext()" [label="anext()" shape=ellipse]
+	"Fonctions intégrées" -> "anext()"
+	"any()" [label="any()" shape=ellipse]
+	"Fonctions intégrées" -> "any()"
+	"ascii()" [label="ascii()" shape=ellipse]
+	"Fonctions intégrées" -> "ascii()"
+	"bin()" [label="bin()" shape=ellipse]
+	"Fonctions intégrées" -> "bin()"
+	"bool()" [label="bool()" shape=ellipse]
+	"Fonctions intégrées" -> "bool()"
+	"breakpoint()" [label="breakpoint()" shape=ellipse]
+	"Fonctions intégrées" -> "breakpoint()"
+	"bytearray()" [label="bytearray()" shape=ellipse]
+	"Fonctions intégrées" -> "bytearray()"
+	"bytes()" [label="bytes()" shape=ellipse]
+	"Fonctions intégrées" -> "bytes()"
+	"callable()" [label="callable()" shape=ellipse]
+	"Fonctions intégrées" -> "callable()"
+	"chr()" [label="chr()" shape=ellipse]
+	"Fonctions intégrées" -> "chr()"
+	"classmethod()" [label="classmethod()" shape=ellipse]
+	"Fonctions intégrées" -> "classmethod()"
+	"compile()" [label="compile()" shape=ellipse]
+	"Fonctions intégrées" -> "compile()"
+	"complex()" [label="complex()" shape=ellipse]
+	"Fonctions intégrées" -> "complex()"
+	"delattr()" [label="delattr()" shape=ellipse]
+	"Fonctions intégrées" -> "delattr()"
+	"dict()" [label="dict()" shape=ellipse]
+	"Fonctions intégrées" -> "dict()"
+	"dir()" [label="dir()" shape=ellipse]
+	"Fonctions intégrées" -> "dir()"
+	"divmod()" [label="divmod()" shape=ellipse]
+	"Fonctions intégrées" -> "divmod()"
+	"enumerate()" [label="enumerate()" shape=ellipse]
+	"Fonctions intégrées" -> "enumerate()"
+	"eval()" [label="eval()" shape=ellipse]
+	"Fonctions intégrées" -> "eval()"
+	"exec()" [label="exec()" shape=ellipse]
+	"Fonctions intégrées" -> "exec()"
+	"filter()" [label="filter()" shape=ellipse]
+	"Fonctions intégrées" -> "filter()"
+	"float()" [label="float()" shape=ellipse]
+	"Fonctions intégrées" -> "float()"
+	"format()" [label="format()" shape=ellipse]
+	"Fonctions intégrées" -> "format()"
+	"frozenset()" [label="frozenset()" shape=ellipse]
+	"Fonctions intégrées" -> "frozenset()"
+	"getattr()" [label="getattr()" shape=ellipse]
+	"Fonctions intégrées" -> "getattr()"
+	"globals()" [label="globals()" shape=ellipse]
+	"Fonctions intégrées" -> "globals()"
+	"hasattr()" [label="hasattr()" shape=ellipse]
+	"Fonctions intégrées" -> "hasattr()"
+	"hash()" [label="hash()" shape=ellipse]
+	"Fonctions intégrées" -> "hash()"
+	"help()" [label="help()" shape=ellipse]
+	"Fonctions intégrées" -> "help()"
+	"hex()" [label="hex()" shape=ellipse]
+	"Fonctions intégrées" -> "hex()"
+	"id()" [label="id()" shape=ellipse]
+	"Fonctions intégrées" -> "id()"
+	"input()" [label="input()" shape=ellipse]
+	"Fonctions intégrées" -> "input()"
+	"int()" [label="int()" shape=ellipse]
+	"Fonctions intégrées" -> "int()"
+	"isinstance()" [label="isinstance()" shape=ellipse]
+	"Fonctions intégrées" -> "isinstance()"
+	"issubclass()" [label="issubclass()" shape=ellipse]
+	"Fonctions intégrées" -> "issubclass()"
+	"iter()" [label="iter()" shape=ellipse]
+	"Fonctions intégrées" -> "iter()"
+	"len()" [label="len()" shape=ellipse]
+	"Fonctions intégrées" -> "len()"
+	"list()" [label="list()" shape=ellipse]
+	"Fonctions intégrées" -> "list()"
+	"locals()" [label="locals()" shape=ellipse]
+	"Fonctions intégrées" -> "locals()"
+	"map()" [label="map()" shape=ellipse]
+	"Fonctions intégrées" -> "map()"
+	"max()" [label="max()" shape=ellipse]
+	"Fonctions intégrées" -> "max()"
+	"memoryview()" [label="memoryview()" shape=ellipse]
+	"Fonctions intégrées" -> "memoryview()"
+	"min()" [label="min()" shape=ellipse]
+	"Fonctions intégrées" -> "min()"
+	"next()" [label="next()" shape=ellipse]
+	"Fonctions intégrées" -> "next()"
+	"object()" [label="object()" shape=ellipse]
+	"Fonctions intégrées" -> "object()"
+	"oct()" [label="oct()" shape=ellipse]
+	"Fonctions intégrées" -> "oct()"
+	"open()" [label="open()" shape=ellipse]
+	"Fonctions intégrées" -> "open()"
+	"ord()" [label="ord()" shape=ellipse]
+	"Fonctions intégrées" -> "ord()"
+	"pow()" [label="pow()" shape=ellipse]
+	"Fonctions intégrées" -> "pow()"
+	"print()" [label="print()" shape=ellipse]
+	"Fonctions intégrées" -> "print()"
+	"property()" [label="property()" shape=ellipse]
+	"Fonctions intégrées" -> "property()"
+	"range()" [label="range()" shape=ellipse]
+	"Fonctions intégrées" -> "range()"
+	"repr()" [label="repr()" shape=ellipse]
+	"Fonctions intégrées" -> "repr()"
+	"reversed()" [label="reversed()" shape=ellipse]
+	"Fonctions intégrées" -> "reversed()"
+	"round()" [label="round()" shape=ellipse]
+	"Fonctions intégrées" -> "round()"
+	"set()" [label="set()" shape=ellipse]
+	"Fonctions intégrées" -> "set()"
+	"setattr()" [label="setattr()" shape=ellipse]
+	"Fonctions intégrées" -> "setattr()"
+	"slice()" [label="slice()" shape=ellipse]
+	"Fonctions intégrées" -> "slice()"
+	"sorted()" [label="sorted()" shape=ellipse]
+	"Fonctions intégrées" -> "sorted()"
+	"staticmethod()" [label="staticmethod()" shape=ellipse]
+	"Fonctions intégrées" -> "staticmethod()"
+	"str()" [label="str()" shape=ellipse]
+	"Fonctions intégrées" -> "str()"
+	"sum()" [label="sum()" shape=ellipse]
+	"Fonctions intégrées" -> "sum()"
+	"super()" [label="super()" shape=ellipse]
+	"Fonctions intégrées" -> "super()"
+	"tuple()" [label="tuple()" shape=ellipse]
+	"Fonctions intégrées" -> "tuple()"
+	"type()" [label="type()" shape=ellipse]
+	"Fonctions intégrées" -> "type()"
+	"vars()" [label="vars()" shape=ellipse]
+	"Fonctions intégrées" -> "vars()"
+	"zip()" [label="zip()" shape=ellipse]
+	"Fonctions intégrées" -> "zip()"
+	"__import__()" [label="__import__()" shape=ellipse]
+	"Fonctions intégrées" -> "__import__()"
+	"Types intégrés" [label="Types intégrés" fillcolor=lightgreen shape=box style=filled]
+	"Test de valeur de vérité" [label="Test de valeur de vérité" shape=ellipse]
+	"Types intégrés" -> "Test de valeur de vérité"
+	"Opérations booléennes — and, or, not" [label="Opérations booléennes — and, or, not" shape=ellipse]
+	"Types intégrés" -> "Opérations booléennes — and, or, not"
+	Comparaisons [label=Comparaisons shape=ellipse]
+	"Types intégrés" -> Comparaisons
+	"Types numériques — int, float, complex" [label="Types numériques — int, float, complex" shape=ellipse]
+	"Types intégrés" -> "Types numériques — int, float, complex"
+	"Types d'itérateurs" [label="Types d'itérateurs" shape=ellipse]
+	"Types intégrés" -> "Types d'itérateurs"
+	"Types de séquence — list, tuple, range" [label="Types de séquence — list, tuple, range" shape=ellipse]
+	"Types intégrés" -> "Types de séquence — list, tuple, range"
+	"Type de séquence de texte — str" [label="Type de séquence de texte — str" shape=ellipse]
+	"Types intégrés" -> "Type de séquence de texte — str"
+	"Types de séquence binaire — bytes, bytearray, memoryview" [label="Types de séquence binaire — bytes, bytearray, memoryview" shape=ellipse]
+	"Types intégrés" -> "Types de séquence binaire — bytes, bytearray, memoryview"
+	"Types d'ensembles — set, frozenset" [label="Types d'ensembles — set, frozenset" shape=ellipse]
+	"Types intégrés" -> "Types d'ensembles — set, frozenset"
+	"Types de mappage — dict" [label="Types de mappage — dict" shape=ellipse]
+	"Types intégrés" -> "Types de mappage — dict"
+	"Types de gestionnaires de contexte" [label="Types de gestionnaires de contexte" shape=ellipse]
+	"Types intégrés" -> "Types de gestionnaires de contexte"
+	"Types d'annotations de type – Alias générique, Union" [label="Types d'annotations de type – Alias générique, Union" shape=ellipse]
+	"Types intégrés" -> "Types d'annotations de type – Alias générique, Union"
+	"Autres types intégrés" [label="Autres types intégrés" shape=ellipse]
+	"Types intégrés" -> "Autres types intégrés"
+	"Attributs spéciaux" [label="Attributs spéciaux" shape=ellipse]
+	"Types intégrés" -> "Attributs spéciaux"
+	"Limitation de la longueur de conversion de chaîne entière" [label="Limitation de la longueur de conversion de chaîne entière" shape=ellipse]
+	"Types intégrés" -> "Limitation de la longueur de conversion de chaîne entière"
+	"Exceptions intégrées" [label="Exceptions intégrées" fillcolor=lightgreen shape=box style=filled]
+	"Contexte des exceptions" [label="Contexte des exceptions" shape=ellipse]
+	"Exceptions intégrées" -> "Contexte des exceptions"
+	"Héritage des exceptions intégrées" [label="Héritage des exceptions intégrées" shape=ellipse]
+	"Exceptions intégrées" -> "Héritage des exceptions intégrées"
+	"Cours de base" [label="Cours de base" shape=ellipse]
+	"Exceptions intégrées" -> "Cours de base"
+	"Exceptions concrètes" [label="Exceptions concrètes" shape=ellipse]
+	"Exceptions intégrées" -> "Exceptions concrètes"
+	Avertissements [label=Avertissements shape=ellipse]
+	"Exceptions intégrées" -> Avertissements
+	"Groupes d'exceptions" [label="Groupes d'exceptions" shape=ellipse]
+	"Exceptions intégrées" -> "Groupes d'exceptions"
+	"Hiérarchie des exceptions" [label="Hiérarchie des exceptions" shape=ellipse]
+	"Exceptions intégrées" -> "Hiérarchie des exceptions"
+	"Services de traitement de texte" [label="Services de traitement de texte" fillcolor=lightgreen shape=box style=filled]
+	"string — Opérations courantes sur les chaînes" [label="string — Opérations courantes sur les chaînes" shape=ellipse]
+	"Services de traitement de texte" -> "string — Opérations courantes sur les chaînes"
+	"re — Opérations d'expression régulière" [label="re — Opérations d'expression régulière" shape=ellipse]
+	"Services de traitement de texte" -> "re — Opérations d'expression régulière"
+	"difflib — Aides pour le calcul des deltas" [label="difflib — Aides pour le calcul des deltas" shape=ellipse]
+	"Services de traitement de texte" -> "difflib — Aides pour le calcul des deltas"
+	"textwrap — Habillage et remplissage du texte" [label="textwrap — Habillage et remplissage du texte" shape=ellipse]
+	"Services de traitement de texte" -> "textwrap — Habillage et remplissage du texte"
+	"unicodedata — Base de données Unicode" [label="unicodedata — Base de données Unicode" shape=ellipse]
+	"Services de traitement de texte" -> "unicodedata — Base de données Unicode"
+	"stringprep — Préparation des chaînes Internet" [label="stringprep — Préparation des chaînes Internet" shape=ellipse]
+	"Services de traitement de texte" -> "stringprep — Préparation des chaînes Internet"
+	"readline — Interface de lecture GNU" [label="readline — Interface de lecture GNU" shape=ellipse]
+	"Services de traitement de texte" -> "readline — Interface de lecture GNU"
+	"rlcompleter — Fonction de complétion pour GNU readline" [label="rlcompleter — Fonction de complétion pour GNU readline" shape=ellipse]
+	"Services de traitement de texte" -> "rlcompleter — Fonction de complétion pour GNU readline"
+	"Services de données binaires" [label="Services de données binaires" fillcolor=lightgreen shape=box style=filled]
+	"struct — Interpréter les octets comme des données binaires compressées" [label="struct — Interpréter les octets comme des données binaires compressées" shape=ellipse]
+	"Services de données binaires" -> "struct — Interpréter les octets comme des données binaires compressées"
+	"codecs — Registre des codecs et classes de base" [label="codecs — Registre des codecs et classes de base" shape=ellipse]
+	"Services de données binaires" -> "codecs — Registre des codecs et classes de base"
+	"Types de données" [label="Types de données" fillcolor=lightgreen shape=box style=filled]
+	"datetime — Types de date et d'heure de base" [label="datetime — Types de date et d'heure de base" shape=ellipse]
+	"Types de données" -> "datetime — Types de date et d'heure de base"
+	"zoneinfo — Prise en charge du fuseau horaire IANA" [label="zoneinfo — Prise en charge du fuseau horaire IANA" shape=ellipse]
+	"Types de données" -> "zoneinfo — Prise en charge du fuseau horaire IANA"
+	"calendar — Fonctions générales liées au calendrier" [label="calendar — Fonctions générales liées au calendrier" shape=ellipse]
+	"Types de données" -> "calendar — Fonctions générales liées au calendrier"
+	"collections — Types de données de conteneur" [label="collections — Types de données de conteneur" shape=ellipse]
+	"Types de données" -> "collections — Types de données de conteneur"
+	"collections.abc — Classes de base abstraites pour les conteneurs" [label="collections.abc — Classes de base abstraites pour les conteneurs" shape=ellipse]
+	"Types de données" -> "collections.abc — Classes de base abstraites pour les conteneurs"
+	"heapq — Algorithme de file d'attente de tas" [label="heapq — Algorithme de file d'attente de tas" shape=ellipse]
+	"Types de données" -> "heapq — Algorithme de file d'attente de tas"
+	"bisect — Algorithme de bissection de tableau" [label="bisect — Algorithme de bissection de tableau" shape=ellipse]
+	"Types de données" -> "bisect — Algorithme de bissection de tableau"
+	"array — Tableaux efficaces de valeurs numériques" [label="array — Tableaux efficaces de valeurs numériques" shape=ellipse]
+	"Types de données" -> "array — Tableaux efficaces de valeurs numériques"
+	"weakref — Faibles références" [label="weakref — Faibles références" shape=ellipse]
+	"Types de données" -> "weakref — Faibles références"
+	"types — Création de types dynamiques et noms pour les types intégrés" [label="types — Création de types dynamiques et noms pour les types intégrés" shape=ellipse]
+	"Types de données" -> "types — Création de types dynamiques et noms pour les types intégrés"
+	"copy — Opérations de copie superficielle et profonde" [label="copy — Opérations de copie superficielle et profonde" shape=ellipse]
+	"Types de données" -> "copy — Opérations de copie superficielle et profonde"
+	"pprint — Jolie imprimante de données" [label="pprint — Jolie imprimante de données" shape=ellipse]
+	"Types de données" -> "pprint — Jolie imprimante de données"
+	"reprlib — repr() Mise en œuvre alternative" [label="reprlib — repr() Mise en œuvre alternative" shape=ellipse]
+	"Types de données" -> "reprlib — repr() Mise en œuvre alternative"
+	"enum — Prise en charge des énumérations" [label="enum — Prise en charge des énumérations" shape=ellipse]
+	"Types de données" -> "enum — Prise en charge des énumérations"
+	"graphlib — Fonctionnalité permettant de fonctionner avec des structures de type graphique" [label="graphlib — Fonctionnalité permettant de fonctionner avec des structures de type graphique" shape=ellipse]
+	"Types de données" -> "graphlib — Fonctionnalité permettant de fonctionner avec des structures de type graphique"
+	"Modules numériques et mathématiques" [label="Modules numériques et mathématiques" fillcolor=lightgreen shape=box style=filled]
+	"numbers — Classes de base abstraites numériques" [label="numbers — Classes de base abstraites numériques" shape=ellipse]
+	"Modules numériques et mathématiques" -> "numbers — Classes de base abstraites numériques"
+	"math — Fonctions mathématiques" [label="math — Fonctions mathématiques" shape=ellipse]
+	"Modules numériques et mathématiques" -> "math — Fonctions mathématiques"
+	"cmath — Fonctions mathématiques pour les nombres complexes" [label="cmath — Fonctions mathématiques pour les nombres complexes" shape=ellipse]
+	"Modules numériques et mathématiques" -> "cmath — Fonctions mathématiques pour les nombres complexes"
+	"decimal — Arithmétique décimale à virgule fixe et à virgule flottante" [label="decimal — Arithmétique décimale à virgule fixe et à virgule flottante" shape=ellipse]
+	"Modules numériques et mathématiques" -> "decimal — Arithmétique décimale à virgule fixe et à virgule flottante"
+	"fractions — Nombres rationnels" [label="fractions — Nombres rationnels" shape=ellipse]
+	"Modules numériques et mathématiques" -> "fractions — Nombres rationnels"
+	"random — Générer des nombres pseudo-aléatoires" [label="random — Générer des nombres pseudo-aléatoires" shape=ellipse]
+	"Modules numériques et mathématiques" -> "random — Générer des nombres pseudo-aléatoires"
+	"statistics — Fonctions statistiques mathématiques" [label="statistics — Fonctions statistiques mathématiques" shape=ellipse]
+	"Modules numériques et mathématiques" -> "statistics — Fonctions statistiques mathématiques"
+	"Modules de programmation fonctionnelle" [label="Modules de programmation fonctionnelle" fillcolor=lightgreen shape=box style=filled]
+	"itertools — Fonctions créant des itérateurs pour un bouclage efficace" [label="itertools — Fonctions créant des itérateurs pour un bouclage efficace" shape=ellipse]
+	"Modules de programmation fonctionnelle" -> "itertools — Fonctions créant des itérateurs pour un bouclage efficace"
+	"functools — Fonctions et opérations d'ordre supérieur sur des objets appelables" [label="functools — Fonctions et opérations d'ordre supérieur sur des objets appelables" shape=ellipse]
+	"Modules de programmation fonctionnelle" -> "functools — Fonctions et opérations d'ordre supérieur sur des objets appelables"
+	"operator — Opérateurs standards comme fonctions" [label="operator — Opérateurs standards comme fonctions" shape=ellipse]
+	"Modules de programmation fonctionnelle" -> "operator — Opérateurs standards comme fonctions"
+	"Accès aux fichiers et aux répertoires" [label="Accès aux fichiers et aux répertoires" fillcolor=lightgreen shape=box style=filled]
+	"pathlib — Chemins de système de fichiers orientés objet" [label="pathlib — Chemins de système de fichiers orientés objet" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "pathlib — Chemins de système de fichiers orientés objet"
+	"os.path — Manipulations courantes des noms de chemin" [label="os.path — Manipulations courantes des noms de chemin" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "os.path — Manipulations courantes des noms de chemin"
+	"fileinput — Itérer sur les lignes de plusieurs flux d'entrée" [label="fileinput — Itérer sur les lignes de plusieurs flux d'entrée" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "fileinput — Itérer sur les lignes de plusieurs flux d'entrée"
+	"stat — Interprétation stat() des résultats" [label="stat — Interprétation stat() des résultats" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "stat — Interprétation stat() des résultats"
+	"filecmp — Comparaisons de fichiers et de répertoires" [label="filecmp — Comparaisons de fichiers et de répertoires" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "filecmp — Comparaisons de fichiers et de répertoires"
+	"tempfile — Générer des fichiers et répertoires temporaires" [label="tempfile — Générer des fichiers et répertoires temporaires" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "tempfile — Générer des fichiers et répertoires temporaires"
+	"glob — Extension du modèle de chemin d'accès de style Unix" [label="glob — Extension du modèle de chemin d'accès de style Unix" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "glob — Extension du modèle de chemin d'accès de style Unix"
+	"fnmatch — Correspondance de modèle de nom de fichier Unix" [label="fnmatch — Correspondance de modèle de nom de fichier Unix" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "fnmatch — Correspondance de modèle de nom de fichier Unix"
+	"linecache — Accès aléatoire aux lignes de texte" [label="linecache — Accès aléatoire aux lignes de texte" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "linecache — Accès aléatoire aux lignes de texte"
+	"shutil — Opérations de fichiers de haut niveau" [label="shutil — Opérations de fichiers de haut niveau" shape=ellipse]
+	"Accès aux fichiers et aux répertoires" -> "shutil — Opérations de fichiers de haut niveau"
+	"Persistance des données" [label="Persistance des données" fillcolor=lightgreen shape=box style=filled]
+	"pickle — Sérialisation d'objet Python" [label="pickle — Sérialisation d'objet Python" shape=ellipse]
+	"Persistance des données" -> "pickle — Sérialisation d'objet Python"
+	"copyreg — Enregistrer les fonctions de support pickle" [label="copyreg — Enregistrer les fonctions de support pickle" shape=ellipse]
+	"Persistance des données" -> "copyreg — Enregistrer les fonctions de support pickle"
+	"shelve — Persistance d'objet Python" [label="shelve — Persistance d'objet Python" shape=ellipse]
+	"Persistance des données" -> "shelve — Persistance d'objet Python"
+	"marshal — Sérialisation interne des objets Python" [label="marshal — Sérialisation interne des objets Python" shape=ellipse]
+	"Persistance des données" -> "marshal — Sérialisation interne des objets Python"
+	"dbm — Interfaces avec les « bases de données » Unix" [label="dbm — Interfaces avec les « bases de données » Unix" shape=ellipse]
+	"Persistance des données" -> "dbm — Interfaces avec les « bases de données » Unix"
+	"sqlite3 — Interface DB-API 2.0 pour les bases de données SQLite" [label="sqlite3 — Interface DB-API 2.0 pour les bases de données SQLite" shape=ellipse]
+	"Persistance des données" -> "sqlite3 — Interface DB-API 2.0 pour les bases de données SQLite"
+	"Compression et archivage des données" [label="Compression et archivage des données" fillcolor=lightgreen shape=box style=filled]
+	"zlib — Compression compatible avec gzip" [label="zlib — Compression compatible avec gzip" shape=ellipse]
+	"Compression et archivage des données" -> "zlib — Compression compatible avec gzip"
+	"gzip — Prise en charge des fichiers gzip" [label="gzip — Prise en charge des fichiers gzip" shape=ellipse]
+	"Compression et archivage des données" -> "gzip — Prise en charge des fichiers gzip"
+	"bz2 — Prise en charge de la compression bzip2" [label="bz2 — Prise en charge de la compression bzip2" shape=ellipse]
+	"Compression et archivage des données" -> "bz2 — Prise en charge de la compression bzip2"
+	"lzma — Compression utilisant l'algorithme LZMA" [label="lzma — Compression utilisant l'algorithme LZMA" shape=ellipse]
+	"Compression et archivage des données" -> "lzma — Compression utilisant l'algorithme LZMA"
+	"zipfile — Travailler avec des archives ZIP" [label="zipfile — Travailler avec des archives ZIP" shape=ellipse]
+	"Compression et archivage des données" -> "zipfile — Travailler avec des archives ZIP"
+	"tarfile — Lire et écrire des fichiers d'archive tar" [label="tarfile — Lire et écrire des fichiers d'archive tar" shape=ellipse]
+	"Compression et archivage des données" -> "tarfile — Lire et écrire des fichiers d'archive tar"
+	"Formats de fichiers" [label="Formats de fichiers" fillcolor=lightgreen shape=box style=filled]
+	"csv — Lecture et écriture de fichiers CSV" [label="csv — Lecture et écriture de fichiers CSV" shape=ellipse]
+	"Formats de fichiers" -> "csv — Lecture et écriture de fichiers CSV"
+	"configparser — Analyseur de fichiers de configuration" [label="configparser — Analyseur de fichiers de configuration" shape=ellipse]
+	"Formats de fichiers" -> "configparser — Analyseur de fichiers de configuration"
+	"tomllib — Analyser les fichiers TOML" [label="tomllib — Analyser les fichiers TOML" shape=ellipse]
+	"Formats de fichiers" -> "tomllib — Analyser les fichiers TOML"
+	"netrc — Traitement de fichiers netrc" [label="netrc — Traitement de fichiers netrc" shape=ellipse]
+	"Formats de fichiers" -> "netrc — Traitement de fichiers netrc"
+	"plistlib — Générer et analyser les fichiers .plist Apple" [label="plistlib — Générer et analyser les fichiers .plist Apple" shape=ellipse]
+	"Formats de fichiers" -> "plistlib — Générer et analyser les fichiers .plist Apple"
+	"Services cryptographiques" [label="Services cryptographiques" fillcolor=lightgreen shape=box style=filled]
+	"hashlib — Sécuriser les hachages et les résumés de messages" [label="hashlib — Sécuriser les hachages et les résumés de messages" shape=ellipse]
+	"Services cryptographiques" -> "hashlib — Sécuriser les hachages et les résumés de messages"
+	"hmac — Hachage à clé pour l'authentification des messages" [label="hmac — Hachage à clé pour l'authentification des messages" shape=ellipse]
+	"Services cryptographiques" -> "hmac — Hachage à clé pour l'authentification des messages"
+	"secrets — Générez des nombres aléatoires sécurisés pour gérer les secrets" [label="secrets — Générez des nombres aléatoires sécurisés pour gérer les secrets" shape=ellipse]
+	"Services cryptographiques" -> "secrets — Générez des nombres aléatoires sécurisés pour gérer les secrets"
+	"Services de système d'exploitation génériques" [label="Services de système d'exploitation génériques" fillcolor=lightgreen shape=box style=filled]
+	"os — Diverses interfaces du système d'exploitation" [label="os — Diverses interfaces du système d'exploitation" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "os — Diverses interfaces du système d'exploitation"
+	"io — Outils de base pour travailler avec les flux" [label="io — Outils de base pour travailler avec les flux" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "io — Outils de base pour travailler avec les flux"
+	"time — Accès au temps et conversions" [label="time — Accès au temps et conversions" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "time — Accès au temps et conversions"
+	"argparse — Analyseur pour les options de ligne de commande, les arguments et les sous-commandes" [label="argparse — Analyseur pour les options de ligne de commande, les arguments et les sous-commandes" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "argparse — Analyseur pour les options de ligne de commande, les arguments et les sous-commandes"
+	"getopt — Analyseur de style C pour les options de ligne de commande" [label="getopt — Analyseur de style C pour les options de ligne de commande" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "getopt — Analyseur de style C pour les options de ligne de commande"
+	"logging — Facilité de journalisation pour Python" [label="logging — Facilité de journalisation pour Python" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "logging — Facilité de journalisation pour Python"
+	"logging.config — Configuration de la journalisation" [label="logging.config — Configuration de la journalisation" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "logging.config — Configuration de la journalisation"
+	"logging.handlers — Gestionnaires de journalisation" [label="logging.handlers — Gestionnaires de journalisation" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "logging.handlers — Gestionnaires de journalisation"
+	"getpass — Saisie de mot de passe portable" [label="getpass — Saisie de mot de passe portable" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "getpass — Saisie de mot de passe portable"
+	"curses — Gestion du terminal pour les affichages de cellules de caractères" [label="curses — Gestion du terminal pour les affichages de cellules de caractères" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "curses — Gestion du terminal pour les affichages de cellules de caractères"
+	"curses.textpad — Widget de saisie de texte pour les programmes de malédictions" [label="curses.textpad — Widget de saisie de texte pour les programmes de malédictions" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "curses.textpad — Widget de saisie de texte pour les programmes de malédictions"
+	"curses.ascii — Utilitaires pour les caractères ASCII" [label="curses.ascii — Utilitaires pour les caractères ASCII" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "curses.ascii — Utilitaires pour les caractères ASCII"
+	"curses.panel — Une extension de pile de panneaux pour les malédictions" [label="curses.panel — Une extension de pile de panneaux pour les malédictions" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "curses.panel — Une extension de pile de panneaux pour les malédictions"
+	"platform — Accès aux données d'identification de la plateforme sous-jacente" [label="platform — Accès aux données d'identification de la plateforme sous-jacente" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "platform — Accès aux données d'identification de la plateforme sous-jacente"
+	"errno — Symboles standard du système errno" [label="errno — Symboles standard du système errno" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "errno — Symboles standard du système errno"
+	"ctypes — Une bibliothèque de fonctions étrangères pour Python" [label="ctypes — Une bibliothèque de fonctions étrangères pour Python" shape=ellipse]
+	"Services de système d'exploitation génériques" -> "ctypes — Une bibliothèque de fonctions étrangères pour Python"
+	"Exécution simultanée" [label="Exécution simultanée" fillcolor=lightgreen shape=box style=filled]
+	"threading — Parallélisme basé sur les threads" [label="threading — Parallélisme basé sur les threads" shape=ellipse]
+	"Exécution simultanée" -> "threading — Parallélisme basé sur les threads"
+	"multiprocessing — Parallélisme basé sur les processus" [label="multiprocessing — Parallélisme basé sur les processus" shape=ellipse]
+	"Exécution simultanée" -> "multiprocessing — Parallélisme basé sur les processus"
+	"multiprocessing.shared_memory — Mémoire partagée pour un accès direct entre les processus" [label="multiprocessing.shared_memory — Mémoire partagée pour un accès direct entre les processus" shape=ellipse]
+	"Exécution simultanée" -> "multiprocessing.shared_memory — Mémoire partagée pour un accès direct entre les processus"
+	"concurrent.futures — Lancement de tâches parallèles" [label="concurrent.futures — Lancement de tâches parallèles" shape=ellipse]
+	"Exécution simultanée" -> "concurrent.futures — Lancement de tâches parallèles"
+	"subprocess — Gestion des sous-processus" [label="subprocess — Gestion des sous-processus" shape=ellipse]
+	"Exécution simultanée" -> "subprocess — Gestion des sous-processus"
+	"sched — Planificateur d'événements" [label="sched — Planificateur d'événements" shape=ellipse]
+	"Exécution simultanée" -> "sched — Planificateur d'événements"
+	"queue — Une classe de file d'attente synchronisée" [label="queue — Une classe de file d'attente synchronisée" shape=ellipse]
+	"Exécution simultanée" -> "queue — Une classe de file d'attente synchronisée"
+	"contextvars — Variables de contexte" [label="contextvars — Variables de contexte" shape=ellipse]
+	"Exécution simultanée" -> "contextvars — Variables de contexte"
+	"_thread — API de threading de bas niveau" [label="_thread — API de threading de bas niveau" shape=ellipse]
+	"Exécution simultanée" -> "_thread — API de threading de bas niveau"
+	"Mise en réseau et communication interprocessus" [label="Mise en réseau et communication interprocessus" fillcolor=lightgreen shape=box style=filled]
+	"asyncio — E/S asynchrones" [label="asyncio — E/S asynchrones" shape=ellipse]
+	"Mise en réseau et communication interprocessus" -> "asyncio — E/S asynchrones"
+	"socket — Interface réseau de bas niveau" [label="socket — Interface réseau de bas niveau" shape=ellipse]
+	"Mise en réseau et communication interprocessus" -> "socket — Interface réseau de bas niveau"
+	"ssl — Wrapper TLS/SSL pour les objets socket" [label="ssl — Wrapper TLS/SSL pour les objets socket" shape=ellipse]
+	"Mise en réseau et communication interprocessus" -> "ssl — Wrapper TLS/SSL pour les objets socket"
+	"select — En attente de l'achèvement des E/S" [label="select — En attente de l'achèvement des E/S" shape=ellipse]
+	"Mise en réseau et communication interprocessus" -> "select — En attente de l'achèvement des E/S"
+	"selectors — Multiplexage d'E/S de haut niveau" [label="selectors — Multiplexage d'E/S de haut niveau" shape=ellipse]
+	"Mise en réseau et communication interprocessus" -> "selectors — Multiplexage d'E/S de haut niveau"
+	"signal — Définir des gestionnaires pour les événements asynchrones" [label="signal — Définir des gestionnaires pour les événements asynchrones" shape=ellipse]
+	"Mise en réseau et communication interprocessus" -> "signal — Définir des gestionnaires pour les événements asynchrones"
+	"mmap — Prise en charge des fichiers mappés en mémoire" [label="mmap — Prise en charge des fichiers mappés en mémoire" shape=ellipse]
+	"Mise en réseau et communication interprocessus" -> "mmap — Prise en charge des fichiers mappés en mémoire"
+	"Traitement des données Internet" [label="Traitement des données Internet" fillcolor=lightgreen shape=box style=filled]
+	"email — Un package de gestion des e-mails et MIME" [label="email — Un package de gestion des e-mails et MIME" shape=ellipse]
+	"Traitement des données Internet" -> "email — Un package de gestion des e-mails et MIME"
+	"json — Encodeur et décodeur JSON" [label="json — Encodeur et décodeur JSON" shape=ellipse]
+	"Traitement des données Internet" -> "json — Encodeur et décodeur JSON"
+	"mailbox — Manipuler des boîtes aux lettres dans différents formats" [label="mailbox — Manipuler des boîtes aux lettres dans différents formats" shape=ellipse]
+	"Traitement des données Internet" -> "mailbox — Manipuler des boîtes aux lettres dans différents formats"
+	"mimetypes — Mapper les noms de fichiers aux types MIME" [label="mimetypes — Mapper les noms de fichiers aux types MIME" shape=ellipse]
+	"Traitement des données Internet" -> "mimetypes — Mapper les noms de fichiers aux types MIME"
+	"base64 — Encodages de données Base16, Base32, Base64, Base85" [label="base64 — Encodages de données Base16, Base32, Base64, Base85" shape=ellipse]
+	"Traitement des données Internet" -> "base64 — Encodages de données Base16, Base32, Base64, Base85"
+	"binascii — Convertir entre binaire et ASCII" [label="binascii — Convertir entre binaire et ASCII" shape=ellipse]
+	"Traitement des données Internet" -> "binascii — Convertir entre binaire et ASCII"
+	"quopri — Encoder et décoder les données imprimables entre guillemets MIME" [label="quopri — Encoder et décoder les données imprimables entre guillemets MIME" shape=ellipse]
+	"Traitement des données Internet" -> "quopri — Encoder et décoder les données imprimables entre guillemets MIME"
+	"Outils de traitement de balisage structuré" [label="Outils de traitement de balisage structuré" fillcolor=lightgreen shape=box style=filled]
+	"html — Prise en charge du langage de balisage hypertexte" [label="html — Prise en charge du langage de balisage hypertexte" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "html — Prise en charge du langage de balisage hypertexte"
+	"html.parser — Analyseur HTML et XHTML simple" [label="html.parser — Analyseur HTML et XHTML simple" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "html.parser — Analyseur HTML et XHTML simple"
+	"html.entities — Définitions des entités générales HTML" [label="html.entities — Définitions des entités générales HTML" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "html.entities — Définitions des entités générales HTML"
+	"Modules de traitement XML" [label="Modules de traitement XML" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "Modules de traitement XML"
+	"xml.etree.ElementTree — L'API XML ElementTree" [label="xml.etree.ElementTree — L'API XML ElementTree" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "xml.etree.ElementTree — L'API XML ElementTree"
+	"xml.dom — L'API du modèle d'objet de document" [label="xml.dom — L'API du modèle d'objet de document" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "xml.dom — L'API du modèle d'objet de document"
+	"xml.dom.minidom — Implémentation minimale du DOM" [label="xml.dom.minidom — Implémentation minimale du DOM" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "xml.dom.minidom — Implémentation minimale du DOM"
+	"xml.dom.pulldom — Prise en charge de la construction d'arborescences DOM partielles" [label="xml.dom.pulldom — Prise en charge de la construction d'arborescences DOM partielles" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "xml.dom.pulldom — Prise en charge de la construction d'arborescences DOM partielles"
+	"xml.sax — Prise en charge des analyseurs SAX2" [label="xml.sax — Prise en charge des analyseurs SAX2" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "xml.sax — Prise en charge des analyseurs SAX2"
+	"xml.sax.handler — Classes de base pour les gestionnaires SAX" [label="xml.sax.handler — Classes de base pour les gestionnaires SAX" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "xml.sax.handler — Classes de base pour les gestionnaires SAX"
+	"xml.sax.saxutils — Utilitaires SAX" [label="xml.sax.saxutils — Utilitaires SAX" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "xml.sax.saxutils — Utilitaires SAX"
+	"xml.sax.xmlreader — Interface pour les analyseurs XML" [label="xml.sax.xmlreader — Interface pour les analyseurs XML" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "xml.sax.xmlreader — Interface pour les analyseurs XML"
+	"xml.parsers.expat — Analyse XML rapide à l'aide d'Expat" [label="xml.parsers.expat — Analyse XML rapide à l'aide d'Expat" shape=ellipse]
+	"Outils de traitement de balisage structuré" -> "xml.parsers.expat — Analyse XML rapide à l'aide d'Expat"
+	"Protocoles Internet et assistance" [label="Protocoles Internet et assistance" fillcolor=lightgreen shape=box style=filled]
+	"webbrowser — Contrôleur de navigateur Web pratique" [label="webbrowser — Contrôleur de navigateur Web pratique" shape=ellipse]
+	"Protocoles Internet et assistance" -> "webbrowser — Contrôleur de navigateur Web pratique"
+	"wsgiref — Utilitaires WSGI et implémentation de référence" [label="wsgiref — Utilitaires WSGI et implémentation de référence" shape=ellipse]
+	"Protocoles Internet et assistance" -> "wsgiref — Utilitaires WSGI et implémentation de référence"
+	"urllib — Modules de gestion d'URL" [label="urllib — Modules de gestion d'URL" shape=ellipse]
+	"Protocoles Internet et assistance" -> "urllib — Modules de gestion d'URL"
+	"urllib.request — Bibliothèque extensible pour ouvrir des URL" [label="urllib.request — Bibliothèque extensible pour ouvrir des URL" shape=ellipse]
+	"Protocoles Internet et assistance" -> "urllib.request — Bibliothèque extensible pour ouvrir des URL"
+	"urllib.response — Classes de réponse utilisées par urllib" [label="urllib.response — Classes de réponse utilisées par urllib" shape=ellipse]
+	"Protocoles Internet et assistance" -> "urllib.response — Classes de réponse utilisées par urllib"
+	"urllib.parse — Analyser les URL en composants" [label="urllib.parse — Analyser les URL en composants" shape=ellipse]
+	"Protocoles Internet et assistance" -> "urllib.parse — Analyser les URL en composants"
+	"urllib.error — Classes d'exception levées par urllib.request" [label="urllib.error — Classes d'exception levées par urllib.request" shape=ellipse]
+	"Protocoles Internet et assistance" -> "urllib.error — Classes d'exception levées par urllib.request"
+	"urllib.robotparser — Analyseur pour robots.txt" [label="urllib.robotparser — Analyseur pour robots.txt" shape=ellipse]
+	"Protocoles Internet et assistance" -> "urllib.robotparser — Analyseur pour robots.txt"
+	"http — Modules HTTP" [label="http — Modules HTTP" shape=ellipse]
+	"Protocoles Internet et assistance" -> "http — Modules HTTP"
+	"http.client — Client de protocole HTTP" [label="http.client — Client de protocole HTTP" shape=ellipse]
+	"Protocoles Internet et assistance" -> "http.client — Client de protocole HTTP"
+	"ftplib — Client de protocole FTP" [label="ftplib — Client de protocole FTP" shape=ellipse]
+	"Protocoles Internet et assistance" -> "ftplib — Client de protocole FTP"
+	"poplib — Client de protocole POP3" [label="poplib — Client de protocole POP3" shape=ellipse]
+	"Protocoles Internet et assistance" -> "poplib — Client de protocole POP3"
+	"imaplib — Client de protocole IMAP4" [label="imaplib — Client de protocole IMAP4" shape=ellipse]
+	"Protocoles Internet et assistance" -> "imaplib — Client de protocole IMAP4"
+	"smtplib — Client de protocole SMTP" [label="smtplib — Client de protocole SMTP" shape=ellipse]
+	"Protocoles Internet et assistance" -> "smtplib — Client de protocole SMTP"
+	"uuid — Objets UUID selon RFC 4122" [label="uuid — Objets UUID selon RFC 4122" shape=ellipse]
+	"Protocoles Internet et assistance" -> "uuid — Objets UUID selon RFC 4122"
+	"socketserver — Un cadre pour les serveurs de réseau" [label="socketserver — Un cadre pour les serveurs de réseau" shape=ellipse]
+	"Protocoles Internet et assistance" -> "socketserver — Un cadre pour les serveurs de réseau"
+	"http.server — Serveurs HTTP" [label="http.server — Serveurs HTTP" shape=ellipse]
+	"Protocoles Internet et assistance" -> "http.server — Serveurs HTTP"
+	"http.cookies — Gestion de l'état HTTP" [label="http.cookies — Gestion de l'état HTTP" shape=ellipse]
+	"Protocoles Internet et assistance" -> "http.cookies — Gestion de l'état HTTP"
+	"http.cookiejar — Gestion des cookies pour les clients HTTP" [label="http.cookiejar — Gestion des cookies pour les clients HTTP" shape=ellipse]
+	"Protocoles Internet et assistance" -> "http.cookiejar — Gestion des cookies pour les clients HTTP"
+	"xmlrpc — Modules serveur et client XMLRPC" [label="xmlrpc — Modules serveur et client XMLRPC" shape=ellipse]
+	"Protocoles Internet et assistance" -> "xmlrpc — Modules serveur et client XMLRPC"
+	"xmlrpc.client — Accès client XML-RPC" [label="xmlrpc.client — Accès client XML-RPC" shape=ellipse]
+	"Protocoles Internet et assistance" -> "xmlrpc.client — Accès client XML-RPC"
+	"xmlrpc.server — Serveurs XML-RPC de base" [label="xmlrpc.server — Serveurs XML-RPC de base" shape=ellipse]
+	"Protocoles Internet et assistance" -> "xmlrpc.server — Serveurs XML-RPC de base"
+	"ipaddress — Bibliothèque de manipulation IPv4/IPv6" [label="ipaddress — Bibliothèque de manipulation IPv4/IPv6" shape=ellipse]
+	"Protocoles Internet et assistance" -> "ipaddress — Bibliothèque de manipulation IPv4/IPv6"
+	"Services multimédias" [label="Services multimédias" fillcolor=lightgreen shape=box style=filled]
+	"wave — Lire et écrire des fichiers WAV" [label="wave — Lire et écrire des fichiers WAV" shape=ellipse]
+	"Services multimédias" -> "wave — Lire et écrire des fichiers WAV"
+	"colorsys — Conversions entre systèmes de couleurs" [label="colorsys — Conversions entre systèmes de couleurs" shape=ellipse]
+	"Services multimédias" -> "colorsys — Conversions entre systèmes de couleurs"
+	Internationalisation [label=Internationalisation fillcolor=lightgreen shape=box style=filled]
+	"gettext — Services d'internationalisation multilingue" [label="gettext — Services d'internationalisation multilingue" shape=ellipse]
+	Internationalisation -> "gettext — Services d'internationalisation multilingue"
+	"locale — Services d'internationalisation" [label="locale — Services d'internationalisation" shape=ellipse]
+	Internationalisation -> "locale — Services d'internationalisation"
+	"Cadres de programme" [label="Cadres de programme" fillcolor=lightgreen shape=box style=filled]
+	"turtle — Graphiques de tortue" [label="turtle — Graphiques de tortue" shape=ellipse]
+	"Cadres de programme" -> "turtle — Graphiques de tortue"
+	"cmd — Prise en charge des interpréteurs de commandes orientés ligne" [label="cmd — Prise en charge des interpréteurs de commandes orientés ligne" shape=ellipse]
+	"Cadres de programme" -> "cmd — Prise en charge des interpréteurs de commandes orientés ligne"
+	"shlex — Analyse lexicale simple" [label="shlex — Analyse lexicale simple" shape=ellipse]
+	"Cadres de programme" -> "shlex — Analyse lexicale simple"
+	"Interfaces utilisateur graphiques avec Tk" [label="Interfaces utilisateur graphiques avec Tk" fillcolor=lightgreen shape=box style=filled]
+	"tkinter — Interface Python vers Tcl/Tk" [label="tkinter — Interface Python vers Tcl/Tk" shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> "tkinter — Interface Python vers Tcl/Tk"
+	"tkinter.colorchooser — Boîte de dialogue de choix de couleur" [label="tkinter.colorchooser — Boîte de dialogue de choix de couleur" shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> "tkinter.colorchooser — Boîte de dialogue de choix de couleur"
+	"tkinter.font — Wrapper de police Tkinter" [label="tkinter.font — Wrapper de police Tkinter" shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> "tkinter.font — Wrapper de police Tkinter"
+	"Boîtes de dialogue Tkinter" [label="Boîtes de dialogue Tkinter" shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> "Boîtes de dialogue Tkinter"
+	"tkinter.messagebox — Invites de message Tkinter" [label="tkinter.messagebox — Invites de message Tkinter" shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> "tkinter.messagebox — Invites de message Tkinter"
+	"tkinter.scrolledtext — Widget de texte défilé" [label="tkinter.scrolledtext — Widget de texte défilé" shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> "tkinter.scrolledtext — Widget de texte défilé"
+	"tkinter.dnd — Prise en charge du glisser-déposer" [label="tkinter.dnd — Prise en charge du glisser-déposer" shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> "tkinter.dnd — Prise en charge du glisser-déposer"
+	"tkinter.ttk — Widgets sur le thème Tk" [label="tkinter.ttk — Widgets sur le thème Tk" shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> "tkinter.ttk — Widgets sur le thème Tk"
+	"tkinter.tix — Widgets d'extension pour Tk" [label="tkinter.tix — Widgets d'extension pour Tk" shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> "tkinter.tix — Widgets d'extension pour Tk"
+	INACTIF [label=INACTIF shape=ellipse]
+	"Interfaces utilisateur graphiques avec Tk" -> INACTIF
+	"Outils de développement" [label="Outils de développement" fillcolor=lightgreen shape=box style=filled]
+	"typing — Prise en charge des indications de type" [label="typing — Prise en charge des indications de type" shape=ellipse]
+	"Outils de développement" -> "typing — Prise en charge des indications de type"
+	"pydoc — Générateur de documentation et système d'aide en ligne" [label="pydoc — Générateur de documentation et système d'aide en ligne" shape=ellipse]
+	"Outils de développement" -> "pydoc — Générateur de documentation et système d'aide en ligne"
+	"Mode de développement Python" [label="Mode de développement Python" shape=ellipse]
+	"Outils de développement" -> "Mode de développement Python"
+	"doctest — Tester des exemples Python interactifs" [label="doctest — Tester des exemples Python interactifs" shape=ellipse]
+	"Outils de développement" -> "doctest — Tester des exemples Python interactifs"
+	"unittest — Cadre de test unitaire" [label="unittest — Cadre de test unitaire" shape=ellipse]
+	"Outils de développement" -> "unittest — Cadre de test unitaire"
+	"unittest.mock — bibliothèque d'objets fictifs" [label="unittest.mock — bibliothèque d'objets fictifs" shape=ellipse]
+	"Outils de développement" -> "unittest.mock — bibliothèque d'objets fictifs"
+	"unittest.mock — commencer" [label="unittest.mock — commencer" shape=ellipse]
+	"Outils de développement" -> "unittest.mock — commencer"
+	"2to3 — Traduction automatisée de code Python 2 à 3" [label="2to3 — Traduction automatisée de code Python 2 à 3" shape=ellipse]
+	"Outils de développement" -> "2to3 — Traduction automatisée de code Python 2 à 3"
+	"test — Package de tests de régression pour Python" [label="test — Package de tests de régression pour Python" shape=ellipse]
+	"Outils de développement" -> "test — Package de tests de régression pour Python"
+	"test.support — Utilitaires pour la suite de tests Python" [label="test.support — Utilitaires pour la suite de tests Python" shape=ellipse]
+	"Outils de développement" -> "test.support — Utilitaires pour la suite de tests Python"
+	"test.support.socket_helper — Utilitaires pour les tests de socket" [label="test.support.socket_helper — Utilitaires pour les tests de socket" shape=ellipse]
+	"Outils de développement" -> "test.support.socket_helper — Utilitaires pour les tests de socket"
+	"test.support.script_helper — Utilitaires pour les tests d'exécution Python" [label="test.support.script_helper — Utilitaires pour les tests d'exécution Python" shape=ellipse]
+	"Outils de développement" -> "test.support.script_helper — Utilitaires pour les tests d'exécution Python"
+	"test.support.bytecode_helper — Outils de support pour tester la génération correcte de bytecode" [label="test.support.bytecode_helper — Outils de support pour tester la génération correcte de bytecode" shape=ellipse]
+	"Outils de développement" -> "test.support.bytecode_helper — Outils de support pour tester la génération correcte de bytecode"
+	"test.support.threading_helper — Utilitaires pour les tests de threading" [label="test.support.threading_helper — Utilitaires pour les tests de threading" shape=ellipse]
+	"Outils de développement" -> "test.support.threading_helper — Utilitaires pour les tests de threading"
+	"test.support.os_helper — Utilitaires pour les tests du système d'exploitation" [label="test.support.os_helper — Utilitaires pour les tests du système d'exploitation" shape=ellipse]
+	"Outils de développement" -> "test.support.os_helper — Utilitaires pour les tests du système d'exploitation"
+	"test.support.import_helper — Utilitaires pour les tests d'importation" [label="test.support.import_helper — Utilitaires pour les tests d'importation" shape=ellipse]
+	"Outils de développement" -> "test.support.import_helper — Utilitaires pour les tests d'importation"
+	"test.support.warnings_helper — Utilitaires pour les tests d'avertissements" [label="test.support.warnings_helper — Utilitaires pour les tests d'avertissements" shape=ellipse]
+	"Outils de développement" -> "test.support.warnings_helper — Utilitaires pour les tests d'avertissements"
+	"Débogage et profilage" [label="Débogage et profilage" fillcolor=lightgreen shape=box style=filled]
+	"Tableau des événements d'audit" [label="Tableau des événements d'audit" shape=ellipse]
+	"Débogage et profilage" -> "Tableau des événements d'audit"
+	"bdb — Cadre de débogage" [label="bdb — Cadre de débogage" shape=ellipse]
+	"Débogage et profilage" -> "bdb — Cadre de débogage"
+	"faulthandler — Vider le traçage Python" [label="faulthandler — Vider le traçage Python" shape=ellipse]
+	"Débogage et profilage" -> "faulthandler — Vider le traçage Python"
+	"pdb — Le débogueur Python" [label="pdb — Le débogueur Python" shape=ellipse]
+	"Débogage et profilage" -> "pdb — Le débogueur Python"
+	"Les profileurs Python" [label="Les profileurs Python" shape=ellipse]
+	"Débogage et profilage" -> "Les profileurs Python"
+	"timeit — Mesurer le temps d'exécution de petits extraits de code" [label="timeit — Mesurer le temps d'exécution de petits extraits de code" shape=ellipse]
+	"Débogage et profilage" -> "timeit — Mesurer le temps d'exécution de petits extraits de code"
+	"trace — Tracer ou suivre l'exécution des instructions Python" [label="trace — Tracer ou suivre l'exécution des instructions Python" shape=ellipse]
+	"Débogage et profilage" -> "trace — Tracer ou suivre l'exécution des instructions Python"
+	"tracemalloc — Tracer les allocations de mémoire" [label="tracemalloc — Tracer les allocations de mémoire" shape=ellipse]
+	"Débogage et profilage" -> "tracemalloc — Tracer les allocations de mémoire"
+	"Emballage et distribution de logiciels" [label="Emballage et distribution de logiciels" fillcolor=lightgreen shape=box style=filled]
+	"distutils — Construire et installer des modules Python" [label="distutils — Construire et installer des modules Python" shape=ellipse]
+	"Emballage et distribution de logiciels" -> "distutils — Construire et installer des modules Python"
+	"ensurepip — Amorçage de l'installateur pip" [label="ensurepip — Amorçage de l'installateur pip" shape=ellipse]
+	"Emballage et distribution de logiciels" -> "ensurepip — Amorçage de l'installateur pip"
+	"venv — Création d'environnements virtuels" [label="venv — Création d'environnements virtuels" shape=ellipse]
+	"Emballage et distribution de logiciels" -> "venv — Création d'environnements virtuels"
+	"zipapp — Gérer les archives zip Python exécutables" [label="zipapp — Gérer les archives zip Python exécutables" shape=ellipse]
+	"Emballage et distribution de logiciels" -> "zipapp — Gérer les archives zip Python exécutables"
+	"Services d'exécution Python" [label="Services d'exécution Python" fillcolor=lightgreen shape=box style=filled]
+	"sys — Paramètres et fonctions spécifiques au système" [label="sys — Paramètres et fonctions spécifiques au système" shape=ellipse]
+	"Services d'exécution Python" -> "sys — Paramètres et fonctions spécifiques au système"
+	"sysconfig — Fournir un accès aux informations de configuration de Python" [label="sysconfig — Fournir un accès aux informations de configuration de Python" shape=ellipse]
+	"Services d'exécution Python" -> "sysconfig — Fournir un accès aux informations de configuration de Python"
+	"builtins — Objets intégrés" [label="builtins — Objets intégrés" shape=ellipse]
+	"Services d'exécution Python" -> "builtins — Objets intégrés"
+	"__main__ — Environnement de code de niveau supérieur" [label="__main__ — Environnement de code de niveau supérieur" shape=ellipse]
+	"Services d'exécution Python" -> "__main__ — Environnement de code de niveau supérieur"
+	"warnings — Contrôle d'avertissement" [label="warnings — Contrôle d'avertissement" shape=ellipse]
+	"Services d'exécution Python" -> "warnings — Contrôle d'avertissement"
+	"dataclasses — Catégories de données" [label="dataclasses — Catégories de données" shape=ellipse]
+	"Services d'exécution Python" -> "dataclasses — Catégories de données"
+	"contextlib — Utilitaires pour le bloc with - statement" [label="contextlib — Utilitaires pour le bloc with - statement" shape=ellipse]
+	"Services d'exécution Python" -> "contextlib — Utilitaires pour le bloc with - statement"
+	"abc — Classes de base abstraites" [label="abc — Classes de base abstraites" shape=ellipse]
+	"Services d'exécution Python" -> "abc — Classes de base abstraites"
+	"atexit — Gestionnaires de sortie" [label="atexit — Gestionnaires de sortie" shape=ellipse]
+	"Services d'exécution Python" -> "atexit — Gestionnaires de sortie"
+	"traceback — Imprimer ou récupérer un traçage de pile" [label="traceback — Imprimer ou récupérer un traçage de pile" shape=ellipse]
+	"Services d'exécution Python" -> "traceback — Imprimer ou récupérer un traçage de pile"
+	"__future__ — Définitions des énoncés futurs" [label="__future__ — Définitions des énoncés futurs" shape=ellipse]
+	"Services d'exécution Python" -> "__future__ — Définitions des énoncés futurs"
+	"gc — Interface du collecteur de déchets" [label="gc — Interface du collecteur de déchets" shape=ellipse]
+	"Services d'exécution Python" -> "gc — Interface du collecteur de déchets"
+	"inspect — Inspecter les objets vivants" [label="inspect — Inspecter les objets vivants" shape=ellipse]
+	"Services d'exécution Python" -> "inspect — Inspecter les objets vivants"
+	"site — Hook de configuration spécifique au site" [label="site — Hook de configuration spécifique au site" shape=ellipse]
+	"Services d'exécution Python" -> "site — Hook de configuration spécifique au site"
+	"Interpréteurs Python personnalisés" [label="Interpréteurs Python personnalisés" fillcolor=lightgreen shape=box style=filled]
+	"code — Cours de base pour interprètes" [label="code — Cours de base pour interprètes" shape=ellipse]
+	"Interpréteurs Python personnalisés" -> "code — Cours de base pour interprètes"
+	"codeop — Compiler le code Python" [label="codeop — Compiler le code Python" shape=ellipse]
+	"Interpréteurs Python personnalisés" -> "codeop — Compiler le code Python"
+	"Importer des modules" [label="Importer des modules" fillcolor=lightgreen shape=box style=filled]
+	"zipimport — Importer des modules à partir d'archives Zip" [label="zipimport — Importer des modules à partir d'archives Zip" shape=ellipse]
+	"Importer des modules" -> "zipimport — Importer des modules à partir d'archives Zip"
+	"pkgutil — Utilitaire d'extension de paquet" [label="pkgutil — Utilitaire d'extension de paquet" shape=ellipse]
+	"Importer des modules" -> "pkgutil — Utilitaire d'extension de paquet"
+	"modulefinder — Rechercher les modules utilisés par un script" [label="modulefinder — Rechercher les modules utilisés par un script" shape=ellipse]
+	"Importer des modules" -> "modulefinder — Rechercher les modules utilisés par un script"
+	"runpy — Localisation et exécution de modules Python" [label="runpy — Localisation et exécution de modules Python" shape=ellipse]
+	"Importer des modules" -> "runpy — Localisation et exécution de modules Python"
+	"importlib — L'implémentation de l'import" [label="importlib — L'implémentation de l'import" shape=ellipse]
+	"Importer des modules" -> "importlib — L'implémentation de l'import"
+	"importlib.resources — Lecture, ouverture et accès aux ressources du package" [label="importlib.resources — Lecture, ouverture et accès aux ressources du package" shape=ellipse]
+	"Importer des modules" -> "importlib.resources — Lecture, ouverture et accès aux ressources du package"
+	"importlib.resources.abc — Classes de base abstraites pour les ressources" [label="importlib.resources.abc — Classes de base abstraites pour les ressources" shape=ellipse]
+	"Importer des modules" -> "importlib.resources.abc — Classes de base abstraites pour les ressources"
+	"importlib.metadata — Accéder aux métadonnées du package" [label="importlib.metadata — Accéder aux métadonnées du package" shape=ellipse]
+	"Importer des modules" -> "importlib.metadata — Accéder aux métadonnées du package"
+	"L'initialisation du sys.path chemin de recherche du module" [label="L'initialisation du sys.path chemin de recherche du module" shape=ellipse]
+	"Importer des modules" -> "L'initialisation du sys.path chemin de recherche du module"
+	"Services de langage Python" [label="Services de langage Python" fillcolor=lightgreen shape=box style=filled]
+	"ast — Arbres de syntaxe abstraite" [label="ast — Arbres de syntaxe abstraite" shape=ellipse]
+	"Services de langage Python" -> "ast — Arbres de syntaxe abstraite"
+	"symtable — Accès aux tables de symboles du compilateur" [label="symtable — Accès aux tables de symboles du compilateur" shape=ellipse]
+	"Services de langage Python" -> "symtable — Accès aux tables de symboles du compilateur"
+	"token — Constantes utilisées avec les arbres d'analyse Python" [label="token — Constantes utilisées avec les arbres d'analyse Python" shape=ellipse]
+	"Services de langage Python" -> "token — Constantes utilisées avec les arbres d'analyse Python"
+	"keyword — Test des mots-clés Python" [label="keyword — Test des mots-clés Python" shape=ellipse]
+	"Services de langage Python" -> "keyword — Test des mots-clés Python"
+	"tokenize — Générateur de jetons pour la source Python" [label="tokenize — Générateur de jetons pour la source Python" shape=ellipse]
+	"Services de langage Python" -> "tokenize — Générateur de jetons pour la source Python"
+	"tabnanny — Détection d'indentation ambiguë" [label="tabnanny — Détection d'indentation ambiguë" shape=ellipse]
+	"Services de langage Python" -> "tabnanny — Détection d'indentation ambiguë"
+	"pyclbr — Prise en charge du navigateur de modules Python" [label="pyclbr — Prise en charge du navigateur de modules Python" shape=ellipse]
+	"Services de langage Python" -> "pyclbr — Prise en charge du navigateur de modules Python"
+	"py_compile — Compiler les fichiers sources Python" [label="py_compile — Compiler les fichiers sources Python" shape=ellipse]
+	"Services de langage Python" -> "py_compile — Compiler les fichiers sources Python"
+	"compileall — Bibliothèques Python compilées par octets" [label="compileall — Bibliothèques Python compilées par octets" shape=ellipse]
+	"Services de langage Python" -> "compileall — Bibliothèques Python compilées par octets"
+	"dis — Désassembleur pour le bytecode Python" [label="dis — Désassembleur pour le bytecode Python" shape=ellipse]
+	"Services de langage Python" -> "dis — Désassembleur pour le bytecode Python"
+	"pickletools — Outils pour les développeurs de pickle" [label="pickletools — Outils pour les développeurs de pickle" shape=ellipse]
+	"Services de langage Python" -> "pickletools — Outils pour les développeurs de pickle"
+	"Services spécifiques à MS Windows" [label="Services spécifiques à MS Windows" fillcolor=lightgreen shape=box style=filled]
+	"msvcrt — Routines utiles du runtime MS VC++" [label="msvcrt — Routines utiles du runtime MS VC++" shape=ellipse]
+	"Services spécifiques à MS Windows" -> "msvcrt — Routines utiles du runtime MS VC++"
+	"winreg — Accès au registre Windows" [label="winreg — Accès au registre Windows" shape=ellipse]
+	"Services spécifiques à MS Windows" -> "winreg — Accès au registre Windows"
+	"winsound — Interface de lecture audio pour Windows" [label="winsound — Interface de lecture audio pour Windows" shape=ellipse]
+	"Services spécifiques à MS Windows" -> "winsound — Interface de lecture audio pour Windows"
+	"Services spécifiques à Unix" [label="Services spécifiques à Unix" fillcolor=lightgreen shape=box style=filled]
+	"posix — Les appels système POSIX les plus courants" [label="posix — Les appels système POSIX les plus courants" shape=ellipse]
+	"Services spécifiques à Unix" -> "posix — Les appels système POSIX les plus courants"
+	"pwd — La base de données de mots de passe" [label="pwd — La base de données de mots de passe" shape=ellipse]
+	"Services spécifiques à Unix" -> "pwd — La base de données de mots de passe"
+	"grp — La base de données du groupe" [label="grp — La base de données du groupe" shape=ellipse]
+	"Services spécifiques à Unix" -> "grp — La base de données du groupe"
+	"termios — Contrôle tty de style POSIX" [label="termios — Contrôle tty de style POSIX" shape=ellipse]
+	"Services spécifiques à Unix" -> "termios — Contrôle tty de style POSIX"
+	"tty — Fonctions de contrôle des terminaux" [label="tty — Fonctions de contrôle des terminaux" shape=ellipse]
+	"Services spécifiques à Unix" -> "tty — Fonctions de contrôle des terminaux"
+	"pty — Utilitaires pseudo-terminaux" [label="pty — Utilitaires pseudo-terminaux" shape=ellipse]
+	"Services spécifiques à Unix" -> "pty — Utilitaires pseudo-terminaux"
+	"fcntl — Les appels système fcntl et ioctl" [label="fcntl — Les appels système fcntl et ioctl" shape=ellipse]
+	"Services spécifiques à Unix" -> "fcntl — Les appels système fcntl et ioctl"
+	"resource — Informations sur l'utilisation des ressources" [label="resource — Informations sur l'utilisation des ressources" shape=ellipse]
+	"Services spécifiques à Unix" -> "resource — Informations sur l'utilisation des ressources"
+	"syslog — Routines de la bibliothèque syslog Unix" [label="syslog — Routines de la bibliothèque syslog Unix" shape=ellipse]
+	"Services spécifiques à Unix" -> "syslog — Routines de la bibliothèque syslog Unix"
+	"Modules remplacés" [label="Modules remplacés" fillcolor=lightgreen shape=box style=filled]
+	"aifc — Lire et écrire des fichiers AIFF et AIFC" [label="aifc — Lire et écrire des fichiers AIFF et AIFC" shape=ellipse]
+	"Modules remplacés" -> "aifc — Lire et écrire des fichiers AIFF et AIFC"
+	"asynchat — Gestionnaire de commande/réponse de socket asynchrone" [label="asynchat — Gestionnaire de commande/réponse de socket asynchrone" shape=ellipse]
+	"Modules remplacés" -> "asynchat — Gestionnaire de commande/réponse de socket asynchrone"
+	"asyncore — Gestionnaire de sockets asynchrones" [label="asyncore — Gestionnaire de sockets asynchrones" shape=ellipse]
+	"Modules remplacés" -> "asyncore — Gestionnaire de sockets asynchrones"
+	"audioop — Manipuler des données audio brutes" [label="audioop — Manipuler des données audio brutes" shape=ellipse]
+	"Modules remplacés" -> "audioop — Manipuler des données audio brutes"
+	"cgi — Prise en charge de l'interface de passerelle commune" [label="cgi — Prise en charge de l'interface de passerelle commune" shape=ellipse]
+	"Modules remplacés" -> "cgi — Prise en charge de l'interface de passerelle commune"
+	"cgitb — Gestionnaire de traçage pour les scripts CGI" [label="cgitb — Gestionnaire de traçage pour les scripts CGI" shape=ellipse]
+	"Modules remplacés" -> "cgitb — Gestionnaire de traçage pour les scripts CGI"
+	"chunk — Lire les données fragmentées IFF" [label="chunk — Lire les données fragmentées IFF" shape=ellipse]
+	"Modules remplacés" -> "chunk — Lire les données fragmentées IFF"
+	"crypt — Fonction pour vérifier les mots de passe Unix" [label="crypt — Fonction pour vérifier les mots de passe Unix" shape=ellipse]
+	"Modules remplacés" -> "crypt — Fonction pour vérifier les mots de passe Unix"
+	"imghdr — Déterminer le type d'une image" [label="imghdr — Déterminer le type d'une image" shape=ellipse]
+	"Modules remplacés" -> "imghdr — Déterminer le type d'une image"
+	"imp — Accéder aux composants internes de l'importation" [label="imp — Accéder aux composants internes de l'importation" shape=ellipse]
+	"Modules remplacés" -> "imp — Accéder aux composants internes de l'importation"
+	"mailcap — Gestion des fichiers Mailcap" [label="mailcap — Gestion des fichiers Mailcap" shape=ellipse]
+	"Modules remplacés" -> "mailcap — Gestion des fichiers Mailcap"
+	"msilib — Lire et écrire des fichiers Microsoft Installer" [label="msilib — Lire et écrire des fichiers Microsoft Installer" shape=ellipse]
+	"Modules remplacés" -> "msilib — Lire et écrire des fichiers Microsoft Installer"
+	"nis — Interface avec le NIS de Sun (Pages Jaunes)" [label="nis — Interface avec le NIS de Sun (Pages Jaunes)" shape=ellipse]
+	"Modules remplacés" -> "nis — Interface avec le NIS de Sun (Pages Jaunes)"
+	"nntplib — Client de protocole NNTP" [label="nntplib — Client de protocole NNTP" shape=ellipse]
+	"Modules remplacés" -> "nntplib — Client de protocole NNTP"
+	"optparse — Analyseur pour les options de ligne de commande" [label="optparse — Analyseur pour les options de ligne de commande" shape=ellipse]
+	"Modules remplacés" -> "optparse — Analyseur pour les options de ligne de commande"
+	"ossaudiodev — Accès aux appareils audio compatibles OSS" [label="ossaudiodev — Accès aux appareils audio compatibles OSS" shape=ellipse]
+	"Modules remplacés" -> "ossaudiodev — Accès aux appareils audio compatibles OSS"
+	"pipes — Interface avec les pipelines shell" [label="pipes — Interface avec les pipelines shell" shape=ellipse]
+	"Modules remplacés" -> "pipes — Interface avec les pipelines shell"
+	"smtpd — Serveur SMTP" [label="smtpd — Serveur SMTP" shape=ellipse]
+	"Modules remplacés" -> "smtpd — Serveur SMTP"
+	"sndhdr — Déterminer le type de fichier son" [label="sndhdr — Déterminer le type de fichier son" shape=ellipse]
+	"Modules remplacés" -> "sndhdr — Déterminer le type de fichier son"
+	"spwd — La base de données des mots de passe fantômes" [label="spwd — La base de données des mots de passe fantômes" shape=ellipse]
+	"Modules remplacés" -> "spwd — La base de données des mots de passe fantômes"
+	"sunau — Lire et écrire des fichiers Sun AU" [label="sunau — Lire et écrire des fichiers Sun AU" shape=ellipse]
+	"Modules remplacés" -> "sunau — Lire et écrire des fichiers Sun AU"
+	"telnetlib — Client Telnet" [label="telnetlib — Client Telnet" shape=ellipse]
+	"Modules remplacés" -> "telnetlib — Client Telnet"
+	"uu — Encoder et décoder les fichiers uuencode" [label="uu — Encoder et décoder les fichiers uuencode" shape=ellipse]
+	"Modules remplacés" -> "uu — Encoder et décoder les fichiers uuencode"
+	"xdrlib — Encoder et décoder les données XDR" [label="xdrlib — Encoder et décoder les données XDR" shape=ellipse]
+	"Modules remplacés" -> "xdrlib — Encoder et décoder les données XDR"
+	"Considérations de sécurité" [label="Considérations de sécurité" fillcolor=lightgreen shape=box style=filled]
+}

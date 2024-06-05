@@ -1,0 +1,45 @@
+Pour utiliser Graphviz sur Ubuntu, vous devez suivre quelques étapes pour installer le logiciel et générer des diagrammes à partir de fichiers DOT. Voici comment faire :
+
+    Installation de Graphviz :
+
+    Ouvrez un terminal et exécutez les commandes suivantes pour installer Graphviz :
+
+
+sudo apt update
+sudo apt install graphviz
+
+Création d'un fichier DOT :
+
+Créez un fichier avec l'extension .dot dans lequel vous définirez votre diagramme en utilisant la syntaxe DOT. Par exemple, nommez-le mondiagramme.dot.
+
+Ouvrez le fichier mondiagramme.dot dans un éditeur de texte et ajoutez le code DOT pour décrire votre diagramme. Par exemple :
+
+
+digraph G {
+    A -> B;
+    B -> C;
+    C -> A;
+}
+
+Génération de l'image à partir du fichier DOT :
+
+Dans le terminal, naviguez jusqu'au dossier contenant votre fichier .dot. Ensuite, exécutez la commande suivante pour générer une image à partir du fichier DOT :
+
+
+dot -Tpng mondiagramme.dot -o mondiagramme.png
+
+Cette commande convertira le fichier DOT en une image au format PNG.
+
+Visualisation de l'image :
+
+Vous pouvez visualiser l'image générée en utilisant un visionneur d'images ou en ligne de commande. Par exemple, pour ouvrir l'image avec le visionneur d'images par défaut sur Ubuntu :
+
+
+xdg-open mondiagramme.png
+
+
+Si vous préférez accéder à la documentation directement à partir de votre terminal, vous pouvez utiliser la commande pydoc (assurez-vous d'avoir graphviz installé) :
+
+pydoc graphviz
+
+Cela affichera la documentation en ligne de commande pour la bibliothèque graphviz.

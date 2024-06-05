@@ -1,0 +1,36 @@
+Angular
+
+require : node.js 
+https://nodejs.org/en/download/
+
+install it and check if there is installed
+in, cmd prompt> >>> node -v
+v12.18.3
+
+approche of angular/vu/react :: develop one single page (web app)
+
+angular JS :: 
+	angular version 1  : 
+	is different to angular
+	
+Angular :: version >=2
+this framework is based on "Component" (like java based on Object)
+=> every thing in web page is a component; 
+	examples : menu, widget, ....
+html is a template to view a data
+==> we have 2 things
+1. template = html
+2. data : filled that template
+==> data-binding
+
+avantange of angular : loose coopling
+
+client side binding
+server side 
+
+angular is buid in dependency injection
+
+in html : just to woried about expand data, work to make looks pretty
+the component: wories about getting the data from server
+
+you should learn : typescript .ts

@@ -1,0 +1,12 @@
+problem with anuglar installation
+
+Perform following steps:
+
+Completely uninstall angular-cli from your machine
+>>> npm uninstall -g angular-cli
+
+Clean npm cache
+>> npm cache clean --force
+
+Reinstall angular cli,
+>>> npm install -g @angular/cli@latest --force
