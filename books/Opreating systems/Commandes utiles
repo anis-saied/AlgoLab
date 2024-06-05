@@ -1,0 +1,9 @@
+recherche dans des documents pdf:
+pdfgrep  -r "phrase à chercher" "/home/mysina/Dropbox/Documents/Python/Cours/Simulation numérique/"
+
+recherche dans un fichier texte
+grep -r "phrase à chercher" /home/mysina/Dropbox/Documents/Python
+____________________________________
+options :
+-r : rechercher récursivement dans les sous dossiers
+
