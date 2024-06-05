@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Résultats Filtrés</title>
+    <style>
+        /* Styles CSS */
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        
+
+        h1 {
+            text-align: center;
+            margin: 20px 0;
+        }
+
+        #products-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .product {
+            border: 1px solid #ccc;
+            margin: 10px;
+            padding: 10px;
+            background-color: #fff;
+            box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            
+            display: flex;
+            flex-flow : row nowrap;
+            gap: 1rem;
+            border: 1px solid black;
+            
+        }
+
+        .product img {
+            max-width: 40%;
+            height: auto;
+            border: 1px solid black;
+            padding: 1em;
+        }
+
+	.product .details {
+	padding: 1em;
+	  flex-grow:1;
+	  border: 1px solid red;
+	  text-align: left;
+        }
+        
+        .price{
+        font-weight: bold;
+        color:red;
+        }
+        .reduction{
+        color:green;
+        }
+        .product p {
+            margin: 10px 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>Résultats Filtrés</h1>
+
+    <div id="products-list">
+        <!-- Les produits seront affichés ici -->
+    </div>
+
+    <script>
+        // Charger les données depuis le fichier JSON
+        fetch('products.json')
+            .then(response => response.json())
+            .then(data => {
+                // Manipuler les données et les afficher
+                const productsList = document.getElementById('products-list');
+
+                data.forEach(product => {
+                    const productContainer = document.createElement('div');
+                    productContainer.classList.add('product');
+
+                    // Afficher l'image
+                    const image = document.createElement('img');
+                    image.src = product.Image;
+                    productContainer.appendChild(image);
+                    // Afficher les détails du produit
+                    const details = document.createElement('div');
+			details.classList.add('details');
+                    
+                    details.innerHTML = `
+                        <p>Prix spécial: <span class="price">${product['Prix spécial']}</span></p>
+                        <p>Ancien prix: ${product['Ancien prix']}</p>
+                        <p>Réduction: <span class="price reduction">${product['Réduction']}</span></p>
+                        <p>Disponibilité: ${product['Disponibilité']}</p>
+                        <p>Référence: ${product['Référence']}</p>
+                        <p>Description: ${product['Description']}</p>
+                    `;
+
+                    productContainer.appendChild(details);
+
+                    productsList.appendChild(productContainer);
+                });
+            })
+            .catch(error => {
+                console.error('Erreur lors du chargement des données :', error);
+            });
+    </script>
+</body>
+</html>
+

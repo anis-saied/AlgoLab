@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Liste des Produits</title>
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.11.5/css/dataTables.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/responsive/2.2.9/css/responsive.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdn.datatables.net/buttons/2.2.9/css/buttons.bootstrap5.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/5.6.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container mt-5">
+        <table id="productTable" class="table table-striped table-bordered table-hover dt-responsive">
+            <thead>
+                <tr>
+                    <th>URL</th>
+                    <th>Title</th>
+                    <th>Prix spécial</th>
+                    <th>Ancien prix</th>
+                    <th>Réduction</th>
+                    <th>Disponibilité</th>
+                    <th>Référence</th>
+                    <th>Description</th>
+                    <th>Image</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Les données du fichier JSON seront insérées ici -->
+            </tbody>
+        </table>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/jquery.dataTables.min.js"></script>
+    <script src="https://cdn.datatables.net/1.11.5/js/dataTables.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/dataTables.responsive.min.js"></script>
+    <script src="https://cdn.datatables.net/responsive/2.2.9/js/responsive.bootstrap5.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.9/js/dataTables.buttons.min.js"></script>
+    <script src="https://cdn.datatables.net/buttons/2.2.9/js/buttons.bootstrap5.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#productTable').DataTable({
+                responsive: true,
+                dom: 'Bfrtip',
+                buttons: ['copy', 'csv', 'excel', 'pdf', 'print'],
+                ajax: {
+                    url: 'recent_products_data.json', // Mettez à jour le chemin vers votre fichier JSON
+                    dataSrc: ''
+                },
+                columns: [
+                    { data: 'URL' },
+                    { data: 'Title' },
+                    { data: 'Prix spécial' },
+                    { data: 'Ancien prix' },
+                    { data: 'Réduction' },
+                    { data: 'Disponibilité' },
+                    { data: 'Référence' },
+                    { data: 'Description' },
+                    {
+                        data: 'Image',
+                        render: function(data, type, row) {
+                            return '<img src="' + data + '" alt="Image du produit" style="max-width: 100px; max-height: 100px;">';
+                        }
+                    }
+                ]
+            });
+             // Chargement des données depuis le fichier JSON
+        $.ajax({
+            url: 'sorted_filtered_recent_products.json', // Remplacez par le chemin de votre fichier JSON
+            dataType: 'json',
+            success: function(data) {
+                var tableBody = document.getElementById('productTableBody');
+
+                // Parcourez les données JSON et ajoutez chaque produit au tableau
+                data.forEach(function(product) {
+                    var row = document.createElement('tr');
+
+                    // Créez une cellule de tableau pour chaque champ de produit
+                    var urlCell = document.createElement('td');
+                    urlCell.textContent = product.URL;
+                    row.appendChild(urlCell);
+
+                    var titleCell = document.createElement('td');
+                    titleCell.textContent = product.Title;
+                    row.appendChild(titleCell);
+
+                    var specialPriceCell = document.createElement('td');
+                    specialPriceCell.textContent = product["Prix spécial"];
+                    row.appendChild(specialPriceCell);
+
+                    var oldPriceCell = document.createElement('td');
+                    oldPriceCell.textContent = product["Ancien prix"];
+                    row.appendChild(oldPriceCell);
+
+                    var discountCell = document.createElement('td');
+                    discountCell.textContent = product.Réduction;
+                    row.appendChild(discountCell);
+
+                    var availabilityCell = document.createElement('td');
+                    availabilityCell.textContent = product.Disponibilité;
+                    row.appendChild(availabilityCell);
+
+                    var referenceCell = document.createElement('td');
+                    referenceCell.textContent = product.Référence;
+                    row.appendChild(referenceCell);
+
+                    var descriptionCell = document.createElement('td');
+                    descriptionCell.textContent = product.Description;
+                    row.appendChild(descriptionCell);
+
+                    var imageCell = document.createElement('td');
+                    var image = document.createElement('img');
+                    image.src = product.Image;
+                    image.alt = 'Image du produit';
+                    image.style.maxWidth = '100px';
+                    image.style.maxHeight = '100px';
+                    imageCell.appendChild(image);
+                    row.appendChild(imageCell);
+
+                    tableBody.appendChild(row);
+                });
+            }
+        });
+        });
+    </script>
+</body>
+</html>
+
