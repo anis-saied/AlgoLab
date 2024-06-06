@@ -1,0 +1,72 @@
+install angular material:
+
+npm install @angular/material --save
+
+
+---------------------------------------------------------------------------------------------------
+In your application module import the components which you are going to use:
+
+import { MdButtonModule, MdSnackBarModule, MdSidenavModule } from '@angular/material';
+
+@NgModule({
+	imports: [
+		...
+		MdButtonModule,
+		MdSnackBarModule,
+		MdSidenavModule,
+		...
+	],
+	declarations: [ AppComponent ],
+	boostrap: [ AppComponent ]
+})
+export class AppModule {}
+
+
+==> You are now ready to use Angular Material in your components!
+
+
+---------------------------------------------------------------------------------------------------
+NOTE:
+
+Wrapping all modules together
+You can also easily wrap all angular modules, which you are going to use, into one module 
+
+------------------------------
+STEP 1: create an angular (ex : MaterialWrapperModule):
+
+ng g m material-wrapper
+
+import { NgModule } from '@angular/core';
+import { MdButtonModule, MdSnackBarModule, MdSidenavModule } from '@angular/material';
+
+@NgModule({
+imports: [
+BrowserAnimationsModule,
+MdButtonModule,
+MdSnackBarModule,
+MdSidenavModule
+],
+exports: [
+MdButtonModule,
+MdSnackBarModule,
+MdSidenavModule
+]
+})
+export class MaterialWrapperModule {}
+
+------------------------------
+
+STEP 2: After that simply import your module into the application main module:
+
+import { MaterialWrapperModule } from './material-wrapper.module.ts';
+
+@NgModule({
+	imports: [
+	...
+	MaterialWrapperModule,
+	...
+	],
+	declarations: [ AppComponent],
+	bootstrap: [ AppComponent ]
+})
+export class AppModule {}
