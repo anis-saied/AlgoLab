@@ -1,0 +1,32 @@
+<pre><font color="#26A269">orca@fedora</font>:<font color="#26A269">~</font>$ ssh -L 3307:foartci638.mysql.db:3306 amsgpqv@ssh.cluster030.hosting.ovh.net
+amsgpqv@ssh.cluster030.hosting.ovh.net&apos;s password: 
+*------------------------------------------------------------------------------*
+|THIS IS A PRIVATE COMPUTER SYSTEM, UNAUTHORIZED ACCESS IS STRICTLY PROHIBITED.|
+|ALL CONNECTIONS ARE LOGGED. IF YOU ARE NOT AUTHORIZED, DISCONNECT NOW.        |
+*------------------------------------------------------------------------------*
+               ____                          _        _    ____  
+              |  _ \ _____      _____ _ __  | |      / \  | __ ) 
+              | |_) / _ \ \ /\ / / _ \ &apos;__| | |     / _ \ |  _ \ 
+              |  __/ (_) \ V  V /  __/ |    | |___ / ___ \| |_) |
+              |_|   \___/ \_/\_/ \___|_|    |_____/_/   \_\____/ 
+
+<font color="#26A269"><b>amsgpqv</b></font>@<font color="#C01C28"><b>ssh01.cluster030.gra.hosting.ovh.net</b></font><font color="#12488B"><b> (python/3.8/development) ~ $</b></font> mysql -u foartci638 -p -h 127.0.0.1 -P 3307
+Enter password: 
+RQHhb63j8j
+
+^C
+<font color="#26A269"><b>amsgpqv</b></font>@<font color="#C01C28"><b>ssh01.cluster030.gra.hosting.ovh.net</b></font><font color="#12488B"><b> (python/3.8/development) ~ $</b></font> mysql -u foartci638 -p -h foartci638.mysql.db
+Enter password: 
+<b>Welcome to the MariaDB monitor.  Commands end with ; or \g.</b>
+<b>Your MySQL connection id is 613873</b>
+<b>Server version: 5.7.42-log MySQL Community Server (GPL)</b>
+
+<b>Copyright (c) 2000, 2018, Oracle, MariaDB Corporation Ab and others.</b>
+
+<b>Type &apos;help;&apos; or &apos;\h&apos; for help. Type &apos;\c&apos; to clear the current input statement.</b>
+
+MySQL [(none)]&gt; SHOW TABLES;
+ERROR 1046 (3D000): No database selected
+MySQL [(none)]&gt; Ctrl-C -- exit!
+<b>Aborted</b>
+</pre>
