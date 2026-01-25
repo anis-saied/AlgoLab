@@ -1,0 +1,213 @@
+.
+├── Opreating systems
+│   ├── 64-ia-32-architectures-software-developer-vol-3a-part-1-manual.pdf
+│   ├── Advanced Programming in the UNIX Environment.pdf
+│   ├── Apprendre l'attaque pour mieux se défendre.pdf
+│   ├── Art of Computer Programming - Volume 3 (Sorting & Searching).pdf
+│   ├── Computer Architecture, Fifth Edition- A Quantitative Approach.pdf
+│   ├── convoy pheneomnon.pdf
+│   ├── Design of the Unix Operating System By Maurice Bach.pdf
+│   ├── How_Linux_Works.pdf
+│   ├── Inside Machine.pdf
+│   ├── intel 64 and ia-32 architectures software developer's manual.pdf
+│   ├── my-notes-on-how-os-works.txt
+│   ├── Operating System Concepts 9th Edition.pdf
+│   ├── operating_systems_three_easy_pieces.pdf
+│   ├── Sébastien Rohaut-Linux - maitrisez l'administration du système (2e édition)-Editions ENI (2009).pdf
+│   ├── The Art of Computer Programming (vol. 1_ Fundamental Algorithms) (3rd ed.) [Knuth 1997-07-17].pdf
+│   ├── The_Art_of_Computer_Programming - Vol 1.pdf
+│   ├── The-art-of-computer-programming.-Vol.2.-Seminumerical-algorithms-by-Knuth-Donald-E-z-lib.org_.pdf
+│   ├── The Design and Implementation of the FreeBSD Operating System (2nd Edition).pdf
+│   ├── the_design_of_the_unix_operating_system.pdf
+│   ├── thedesignofunixoperatingsystem_m_bach.pdf
+│   ├── the effect of context switching on cache performance.pdf
+│   ├── The Elements of Computing Systems.pdf
+│   ├── The Linux Command Line.pdf
+│   ├── The Linux Programming Interface.pdf
+│   ├── udertanding-linux-kernel-3th-edition.pdf
+│   ├── Unix Network Programming Volume 1.pdf
+│   └── Windows Internals Part 1_6th Edition.pdf
+├── programming-language
+│   ├── Angular
+│   │   ├── 1_AngularJS- Novice to Ninja.pdf
+│   │   ├── Advanced Angular _ Training _ LiveLoveApp.pdf
+│   │   ├── Angular 10_9 Tutorial and Example_ Build your First Angular App _ Techiediaries.pdf
+│   │   ├── Angular Development with TypeScript (2018).pdf
+│   │   ├── angular-from-theory-to-practice.pdf
+│   │   ├── Angular-in-Action.pdf
+│   │   ├── angular-responsive-flex-layout_ Brian F Love.pdf
+│   │   ├── Beginning-Angular-2-with-Typescript.pdf
+│   │   ├── Creating your First Web Application in Angular.pdf
+│   │   ├── ng-book-the complete book on angular 4.pdf
+│   │   ├── Pro-Angular-6-3rd-Edition.pdf
+│   │   └── Progressive Web Apps with Angular.pdf
+│   ├── java
+│   │   ├── design pattern
+│   │   │   └── User-Stories-Applied-Mike-Cohn.pdf
+│   │   ├── dev happy path.odt
+│   │   ├── Domain Driven Dev
+│   │   │   └── Eric Evans 2003 - Domain-Driven Design - Tackling Complexity in the Heart of Software.pdf
+│   │   ├── java concurrency
+│   │   │   ├── java-concurrency-in-practice.pdf
+│   │   │   └── Java_Threads_Cheat_Sheet.png
+│   │   ├── java core
+│   │   │   ├── 5278_Java11-Programmer_Study-Guide_V1_E94B.pdf
+│   │   │   ├── Head First Java.pdf
+│   │   │   ├── introcs_cs_princeton_edu_java_11cheatsheet.pdf
+│   │   │   ├── Java 2 Core Language Little Black Book (PDF).pdf
+│   │   │   ├── java8inaction.pdf
+│   │   │   ├── Java The Complete Reference, Seventh Edition .pdf
+│   │   │   ├── LearnJava.pdf
+│   │   │   ├── Modern Java in Action_ Lambda, streams, functional and reactive programming ( PDFDrive ).pdf
+│   │   │   ├── openjdk-17-using_jdk_flight_recorder_with_openjdk-en-us.pdf
+│   │   │   ├── the-cucumber-for-java-book.pdf
+│   │   │   ├── thinkjava2.pdf
+│   │   │   └── zlib.pub_java-17-for-absolute-beginners-learn-the-fundamentals-of-java-programming.pdf
+│   │   ├── java data structures
+│   │   │   └── Java+Collections+Flowchart.png
+│   │   ├── java desktop
+│   │   │   └── Learn Java GUI Applications_ A JFC Swing Tutorial.pdf
+│   │   ├── java microservices
+│   │   │   ├── Advanced Microservices _ A Hands-on Approach to Microservice Infrastructure and Tooling  ( PDFDrive ).pdf
+│   │   │   ├── Beginning Spring Boot 2_ Applications and Microservices with the Spring Framework ( PDFDrive ).pdf
+│   │   │   ├── Learn Microservices with Spring Boot_ A Practical Approach to RESTful Services using RabbitMQ, Eureka, Ribbon, Zuul and Cucumber ( PDFDrive ).pdf
+│   │   │   └── Learn Microservices with Spring Boot.pdf
+│   │   ├── java persistence
+│   │   │   ├── Beginning Hibernate, 2006bbbb.pdf
+│   │   │   ├── hibernate_search_reference.pdf
+│   │   │   ├── Java Persistence with Hibernate.pdf
+│   │   │   └── Spring Persistence with Hibernate.pdf
+│   │   ├── java python
+│   │   │   ├── Java to Python.pdf
+│   │   │   └── Microservices Patterns_ With examples in Java ( PDFDrive ).pdf
+│   │   ├── java selenium
+│   │   │   ├── Selenium-Cheat-Sheet-2022.webp
+│   │   │   ├── Selenium Testing Tools Cookbook ( PDFDrive ).pdf
+│   │   │   ├── selenium_tutorial.pdf
+│   │   │   └── Selenium WebDriver_ From Foundations To Framework (PDF).pdf
+│   │   ├── java spring
+│   │   │   ├── cours-gratuit.com--id-11839.pdf
+│   │   │   ├── spring 1
+│   │   │   │   └── spring-in-action-1st-edition.pdf
+│   │   │   ├── spring 3
+│   │   │   │   └── Spring in Action, 3rd Edition.pdf
+│   │   │   ├── spring 4
+│   │   │   │   └── Craig Walls - Spring in Action 4th Edition - 2014.pdf
+│   │   │   ├── spring 5
+│   │   │   │   ├── MASTERING_SPRING_50.pdf
+│   │   │   │   ├── Pro Spring 5, 5th Edition.pdf
+│   │   │   │   ├── Spring Boot in Practice (eBooksWorld.ir)-2022.pdf
+│   │   │   │   ├── Spring in Action, 5th Edition-2019.pdf
+│   │   │   │   └── Spring in Action, 6th Edition-2022.pdf
+│   │   │   ├── spring 6
+│   │   │   │   ├── spring-framework-docs-6.0.2.pdf
+│   │   │   │   └── Spring.in.Action.6th.Edition.pdf
+│   │   │   ├── spring aspects
+│   │   │   │   ├── Aspectj in Action_ Enterprise AOP with Spring Applications ( PDFDrive ).pdf
+│   │   │   │   └── [JAVA][AspectJ in Action].pdf
+│   │   │   ├── spring batch
+│   │   │   │   ├── pro_spring_batch.pdf
+│   │   │   │   └── spring-batch-in-action.pdf
+│   │   │   ├── spring boot
+│   │   │   │   ├── Pro Spring Boot 2_ An Authoritative Guide to Building Microservices, Web and Enterprise Applications, and Best Practices ( PDFDrive ).pdf
+│   │   │   │   ├── Spring Boot in Action.pdf
+│   │   │   │   ├── spring-boot.pdf
+│   │   │   │   └── spring_boot_tutorial.pdf
+│   │   │   ├── spring data
+│   │   │   │   ├── Spring_data(it-ebooks.info)-2012.pdf
+│   │   │   │   ├── spring-data-jpa-reference-2017.pdf
+│   │   │   │   └── Spring-Data-Programming-Cookbook(java_code-geeks.com)-2016.pdf
+│   │   │   ├── SpringFrameworkNotesForProfessionals.pdf
+│   │   │   ├── spring integration
+│   │   │   │   ├── spring-integration-in-action.pdf
+│   │   │   │   └── Spring Integration in Action.pdf
+│   │   │   ├── spring mvc
+│   │   │   │   ├── 1springmvcbeginnersguide2nd.1041009060.pdf
+│   │   │   │   ├── Spring MVC_ A Tutorial ( PDFDrive ).pdf
+│   │   │   │   └── Spring MVC et Thymeleaf par l'exemple ( PDFDrive ).pdf
+│   │   │   ├── spring.pdf
+│   │   │   ├── spring-reference.pdf
+│   │   │   └── template engines
+│   │   │       ├── FreeMaker
+│   │   │       │   ├── freemarker-manual.pdf
+│   │   │       │   └── Marin+Kalapa─З+-+FreeMarker+in+Spring+Web+Javacro+-final.pdf
+│   │   │       └── thymeleaf
+│   │   │           ├── thymeleaf.pdf
+│   │   │           ├── Thymeleaf-spring-boot ( PDFDrive ).pdf
+│   │   │           ├── thymeleafspring.pdf
+│   │   │           ├── Tutorial_Thymeleaf_Spring.pdf
+│   │   │           └── usingthymeleaf.pdf
+│   │   ├── java UML
+│   │   │   └── UML_for_Java_Programmers-Book.pdf
+│   │   ├── java web
+│   │   │   └── Learn Java for Web Development.pdf
+│   │   ├── JUnit
+│   │   │   ├── BDD in Action_ Behavior-Driven Development for the whole software lifecycle ( PDFDrive ).pdf
+│   │   │   └── Pragmatic Unit Testing in Java 8 with JUnit.pdf
+│   │   └── TDD
+│   │       └── Learning Test-Driven Development-Saleem Siddiqui-O'Reilly-9781098106478-EBooksWorld.ir.pdf
+│   └── python
+│       ├── 10_initiation_via_python_all.pdf
+│       ├── 11_courspython3.pdf
+│       ├── 12_cours-python3.pdf
+│       ├── 13_cours-python-uni-paris7.pdf
+│       ├── 14_python-en-bref.pdf
+│       ├── 15_tutorial3.2.2.pdf
+│       ├── 16_Python_programming_2nd_Edition.pdf
+│       ├── 17_thinkpython.pdf
+│       ├── 18_pythonbook.pdf
+│       ├── 19_thinkCSpy.pdf
+│       ├── 1_Archit_install_envTravail.pdf
+│       ├── 20_CritiquePythonScientifique.pdf
+│       ├── 21_Data Structures and Algorithms in Python.pdf
+│       ├── 22_Doing Math With Python.pdf
+│       ├── 23_Head First Programming.pdf
+│       ├── 24_Head First Python.pdf
+│       ├── 25_MySQL for Python.pdf
+│       ├── 26_matplotlib Plotting Cookbook.pdf
+│       ├── 27_Mastering Object-oriented Python.pdf
+│       ├── 28_librarybook-core-modules.pdf
+│       ├── 29_[Manning] - The Quick. Python Book, 2nd ed. - [Ceder] (2010).pdf
+│       ├── 2_The Python Standard Library by Example.pdf
+│       ├── 30_[O`Reilly] - Programming Python, 4th ed. - [Lutz].pdf
+│       ├── 31_Python Algorithms.pdf
+│       ├── 32_Python for Kids.pdf
+│       ├── 33_Python Cookbook, 2nd Edition.pdf
+│       ├── 34_Python for Unix and Linux System Administration.pdf
+│       ├── 35_Python Pocket Reference, 5th Edition.pdf
+│       ├── 36_Python Algorithms, 2nd Edition.pdf
+│       ├── 37_Learning Python, 5th Edition.pdf
+│       ├── 38_Python and Tkinter Programming (2000).pdf
+│       ├── 39_introduction_to_computer_science_using_python.pdf
+│       ├── 3_AmiensPython2.2.pdf
+│       ├── 40_Using SQLite.pdf
+│       ├── 41_9782311400991.pdf
+│       ├── 4_apprendre_python3_5.pdf
+│       ├── 5_Beginning Python.pdf
+│       ├── 6_Informatique_pour_tous_CPGE_Suit prog officiel.pdf
+│       ├── 7_polycopie_Python.pdf
+│       ├── 8_Programming in Python 3, 2nd Edition.pdf
+│       ├── 9_python_notes.pdf
+│       ├── free-books.md
+│       ├── IJELLv11p123-147Boutnaru2043.pdf
+│       ├── Informatique_pour_tous_en_classes_préparatoires.pdf
+│       ├── Informatique programmation et calcul scientifique(plan).pdf
+│       ├── intro22.pdf
+│       ├── JITEv6p199-214Nikula269.pdf
+│       ├── Learning Python (3th Edition) - Ascher, Lutz (O'Reilly, 2008).pdf
+│       ├── les_bases.pdf
+│       ├── Nouveau programme informatique Prépa.pdf
+│       ├── Programmation Python- Conception et optimisation.pdf
+│       ├── python-1.pdf
+│       ├── pythonbookanswers.zip
+│       ├── pythonbooklistings.zip
+│       ├── python-for-dummies-imprimable.pdf
+│       ├── Python.pdf
+│       ├── python_vannes.pdf
+│       ├── ScipyLectures-simple.pdf
+│       ├── sourcecode.zip
+│       ├── tdm(table de matière) livre python (POO).pdf
+│       └── www.mathprepa.fr-une-petite-reference-python.pdf
+└── tree
+
+35 directories, 176 files

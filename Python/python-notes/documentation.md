@@ -1,1 +1,0 @@
-- [sphinx](https://www.sphinx-doc.org) generate une documentation pour un projet à parir des fichiers de format reStructuredText (.rst)
