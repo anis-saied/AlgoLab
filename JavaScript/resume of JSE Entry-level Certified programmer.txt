@@ -1,0 +1,915 @@
+the browser contains a JavaScript Engine
+the browser load a web page (the web page contains a JS code)
+after loading the web page, the JS engine built into the browser interpret the JS code and execute it
+
+node.js 
+	is also a JS interpreter, but built independently of browsers
+	can turn your computer as a server
+	you can write JS programs and execute them on the node.js
+	
+JS
+- interpreted programming language
+- execute a code in an interpeted language: means run the source codestep by step
+- high-level language: relatively easy to understand for people and separating us from the hardware details
+
+JS engine
+- use JIT Compilation (Just int time compilation technique): compile code fragments (more than a single instruction) during their execution to increase its performance (the interpreter still execute the code instruction by instruction)
+
+
+example: follow a set of instruction to assembly a sport machine: You’re acting as an interpreter at this point, using a program that will allow you to complete the task.
+
+before writing a program (any language you choose)
+- correctly define the problem to solve : understand exactly what you want to achieve 
+- find the optimal solution: how to acheive it
+- present the solution in form of a program witten in a choosen language
+
+write a program : explain something to a computer
+	
+web page:
+- Back in the early 90s, all web pages were static. 
+- Things changed in 1995 when the Netscape corporation hired Brendan Eich, and tasked him to develop a new language for their product, the Netscape Navigator web browser. The new language was called LiveScript, but soon after its name was changed to JavaScript. Its main task was to add dynamics to websites, which would allow, for example, for more complex interaction with the user. And so the career of JavaScript began.
+
+JavaScript on websites: 
+- called client-side programming.
+- The code to be executed is loaded together with the page in the browser, on the user's side, and the interpreter which is a part of the web browser allows for its execution.
+- supported by all major web browsers, 
+- about 95% of web pages worldwide embed JavaScript code within them. 
+- From the beginning, web pages used JavaScript on the client-side to add interactivity and dynamically change the content.
+
+Now it’s much more than that, 
+- JavaScript offers many great frameworks on which to build huge, complex web applications and social networks (React or Angular).
+
+
+with the power of JavaScript, we can 
+- order food, 
+- play browser-based games, 
+- watch movies on streaming platforms, 
+- and be in constant contact with the people important to us. 
+
+
+Over time, JavaScript began to appear in other areas, such as programming the server-side parts of complex web applications, also called back-end. These programs are executed on servers, processing data (e.g. from databases), which after processing will be available on the client side. 
+
+
+- the dynamic typing characteristic of JavaScript. In short, it consists of the fact that we can store data of any type in a variable 
+- a variable is a container in which we store the data we will use
+- static typing, where a variable can only contain one type of variable (e.g. numbers) during program execution, a new language called TypeScript was introduced.
+
+in practice:
+- JavaScript can be used in various environments: web browser or a server with a node.js environment.
+- the essential part of the language, its core, remains the same.
+
+the invariable, core part of JavaScript: how to declare variables, write functions, conditional instructions or loops – all of this will be equally usable in any environment in which we decide to use this language.
+
+
+NOTE:
+- Programming in any language is not an easy thing to learn,
+- there is no other way to learn to program than to write lots and lots of code.
+- must be persistent and focused
+- Most importantly, don't give up even when you’re stuck: take a break, go for a walk, return to it with a fresh mind, and try again. In the end, slow and steady wins the race.
+
+- Now, let's begin!
+
+
+===============================
+Development tools
+===============================
+- programming requires the proper tools and workspace.
+- Software development, in most cases, requires a code editor and a compiler or interpreter of a given language. 
+- we can extend as needed with various other tools.
+- JavaScript code editor and interpreter, we can also use the debugger, which is a tool that allows us, among other things, to pause the program in the indicated place and analyze its current state (e.g. the values of the indicated variables).
+
+
+- there are two choices. 
+1. You can install all the necessary tools on your machine and work in the local environment.
+2. Another approach is to use online tools. These can be convenient, as you don't need to install or configure anything – they just work. Most of them allow you to store your work in a cloud so you can access it from different devices,
+
+
+Online development environment
+-------------------------------
+- Online environments, commonly known as code playgrounds, are sites that act as a simple editor and runtime environment. 
+- They allow you to write code, run it for testing purposes and most often share it with other users.
+- They are mainly used as training and testing platforms, or places to publish sample solutions to programming problems.
+- the most popular are the following:
+JSFiddle
+CodePen
+JsBin
+Plunker
+
+local development environment
+------------------------------
+- JavaScript requirements for the development environment are very modest:
+1. code editor
+2. interpreter
+3. debugger
+
+the environment for which we write our programs : client-side, server-side, mobile
+
+other tools may also be needed:
+1. package managers – enabling the management of libraries or components of the development environment (e.g. npm or yarn)
+2. task runners and module bundlers – used, in simple terms, to automate the process of software development and merge the resulting code from many files and libraries (e.g. Grunt or Webpack)
+3. testing framework – allows for automatic testing of the correctness of our program in search of potential errors (e.g. Mocha, Jasmine, or Jest)
+4. security analyzers – as you can guess, used to control the security of our solution (e.g. Snyk, RetireJS, or OWASP Dependency Check)
+
+=> For now, we need the minimal trio: a code editor, interpreter, and debugger.
+
+Code editor
+===========
+- syntax highlighting, text autocomplete, and error checking.
+- popular ones:
+1. Visual Studio Code: built-in features like a JavaScript debugger, and tools to streamline web projects.
+2. WebStorm: 
+3. Sublime text
+4. notepad++
+5. console editors: vim,...
+
+Interpreter
+===========
+if we want to write a simple server-side application, we will almost certainly choose the node.js environment, which we will have to install directly on our operating system. 
+In the case of client-side software, our interpreter will simply be the web browser you already have installed
+
+all browsers have built-in JavaScript engines (or interpreters): Chrome from Google, or FireFox from Mozilla.
+
+NOTE:
+The language is constantly changing, with new features and mechanisms being added: regularly update your chosen browser and use the latest version.
+Your browser is now a tool, so try to keep it in good shape by updating it regularly.
+
+Debugger
+=========
+With such complexity and size, it’s impossible to produce code without any errors. 
+Some types of errors, especially logical ones can only be found while the program is running, and often only in special circumstances. 
+
+A debugger is a tool that allows you to slow down or even halt the execution of a program, run instructions step by step, and look at and analyze the state of the program at any given moment.
+
+NOTE:
+All modern browsers are equipped with the developer tools.
+During normal operation, they are invisible, and we have to enable them in the browser options 
+
+the inspector – which will allow us, for example, to analyze the individual HTML elements of an open website;
+
+the JavaScript console – which firstly shows all the information about the errors, and secondly allows us to run single JavaScript commands in the context of the current page;
+
+the debugger – which, among other things, shows the current values of variables, and allows you to pause code execution in the indicated place and to perform step-by-step work (i.e. execute single instructions of the program).
+
+to enable the developer tools: F12 or ctrl + shift + I
+
+
+first JS program
+================
+client-side JavaScript is always executed in the context of a website and allows you to manipulate elements of that website. So we can, for example, use the appropriate function to insert some text, change a title, create a table, etc. on the page. This way, we control the visual part of the website.
+
+we can use the console as a screen to write some information. 
+
+what actually is a console? 
+---------------------------
+The console, as we mentioned in the previous chapter, is part of the developer tools. 
+So it is not visible by default, and it must be properly enabled 
+it is a place where various messages are displayed, normally invisible to the browser user. 
+These messages can, for example, be generated by the JavaScript interpreter after encountering an error or if we print it, by calling the appropriate function. we can run individual JavaScript commands in the console, which will be executed in the context of the currently loaded web page
+write information to the console : console.log()
+the function is only a log, and console is the object to which the function belongs.
+This type of function, belonging to an object, is generally called a method. 
+
+the console is not only used to display information, but also allows you to run individual JavaScript instructions. 
+These instructions must be executed in the context of some HTML page. 
+However, you don't necessarily have to write your minimal page, as we did a moment ago. 
+Try to open a new tab and type about:blank in the address bar. 
+This is a pseudo address that tells your browser to generate and load a minimal blank HTML page into the current tab.
+<html>
+     <head></head>
+     <body></body>
+</html>
+choose the console from the developer tools. 
+You should see a prompt, usually a sign > or >> followed by a flashing cursor (if there is no cursor, click on the prompt). 
+Then you can enter the instruction that will show "Hello, World!" on the console (using the console.log function). 
+
+function
+---------
+a piece of code that allows you to perform a specific task (in our case, to display something on the console). 
+Functions often take arguments, in other words, data that they will use during operation.
+In JavaScript, we run a function by calling it, and we call it by writing its name followed by a pair of parentheses, where the arguments are provided (if the function does not need arguments, the parentheses are left empty).
+to let the interpreter know where the command ends, we put a semicolon at the end of the function call.
+
+
+Local development environment
+=============================
+Client-side JavaScript is a language of the web and exists only in the web ecosystem. 
+JavaScript cannot exist by itself. 
+JavaScript code needs to be embedded in an HTML document.
+
+
+HTML
+----
+HyperText Markup Language, or HTML for short, 
+is a set of tags used to describe the structure of a website. 
+a language to describe the structure of a we page 
+It allows us to give a page the format of a document containing sections, headers, paragraphs, lists, and the like.
+Tag types are predefined. 
+For example, the tag that specifies a paragraph is <p> and the tag for the first degree (largest) header is <h1>. 
+The tag name must be placed in angle brackets. 
+Tags are usually used in pairs, limiting a certain area of the document (we have an opening and a closing tag). 
+The closing tag is different from the opening tag, because a slash appears before the name.
+example: <p>It's just an ordinary paragraph.</p>
+Often, tags can (and sometimes must) be placed within the range of other tags.
+example: 
+<body>
+<p>It's just an ordinary paragraph.</p>
+</body>
+
+Minimal HTML document
+---------------------
+<!DOCTYPE html>
+<html>
+     <head>
+     <title>Empty Page</title>
+     </head>
+     <body>
+     </body>
+</html>
+
+- the declaration <!DOCTYPE html>. This is not a typical tag, as it is used to inform the browser that the whole document has been prepared according to HTML5. 
+- <html> tag, which together with the </html> tag sets the boundaries of the document.
+- <head>, contains additional information about the document, which must also be placed in tags. The most basic one is the <title> tag, which sets the title of the page mostly visible in the browser title bar.
+- <body> element : the visible content of the web page should be placed there (e.g. our paragraph).
+
+script tag
+----------
+The JavaScript code to be executed by the browser on the page must be attached to the HTML using the <script> tag, 
+When loading the page, the code placed inside the <script> tags should be executed 
+and there are two ways it can be done. 
+1. The code can be embedded directly inside of the <script> and </script> tags, but this is only recommended when the code is short. 
+2. Another approach is to use the "src" attribute to point to a separate file that contains the JavaScript code. 
+This is especially true when the same code is going to be used on several pages, because repeating exactly the same code many times is bad practice, as any changes need to be applied to all the files; and additionally, it artificially increases the page size. 
+The JavaScript file extension is .js.
+
+HTML is read by the browser line by line, and script tags are executed right at the moment when the browser parses the <script> tag
+<script> tags are inserted in the page header between the <head> and </head> tags, and we can insert many of them in a file, for example, in order to include JavaScript code from different files. This behavior can be changed for external scripts pointed to by the "src" attribute by using the "defer" or "async" attributes.
+
+defer – means that the script should be executed after the whole page is loaded;
+async – means that the script will be executed immediately, but in parallel to parsing the rest of the page.
+
+example:
+<script src="main.js"></script> : there is a reference to main.js (so this file will automatically be loaded, too).
+
+
+CSS
+===
+CSS, or Cascading Style Sheets, *
+is a language used together with HTML to describe the appearance of a page and its elements. 
+In a nutshell, HTML describes the structure of a document, while CSS describes its presentation.
+
+
+website
+=======
+the website will most often be built on the basis of an 
+HTML file (that is, a description of the structure), 
+JavaScript code (allowing us to add, for example, some interaction mechanisms) 
+and a CSS file (describing the presentation layer of the page).
+
+
+browser
+=======
+window : browser window
+console : turn on the developer tools to be able to use the console : the console panel is visible; the console will show ...
+
+
+load html file 
+---------------
+from web server : http://test.org/index.html
+local html file : file:///c:/workspace/index.html
+
+NOTE: You can load a local html file either by typing its local path after file:/// in the address bar, or by simply opening it in your browser using the Open command from the menu. 
+
+run HTML file locally:
+-----------------------
+- open the code editor of your choice. 
+- Create a new file with the extension .html
+- Put the following code in this file and save it.
+<!DOCTYPE html>
+<html>
+     <head>
+     <title>Empty Page</title>
+     <script src="main.js"></script>
+     </head>
+     <body>
+     </body>
+</html>
+
+- in the same editor, create another file, this time called main.js, put the following code and save it
+console.log("hello world!")
+
+- Save the changes and go to the browser. 
+- Open a new tab, enable the developer tools (they open for a particular tab), and select the console tool.
+- open the html file you have just created: (ctrl + O) 
+- If everything has been done correctly, you should see our "Hello, World!" sign in the console. 
+- Make sure that it works and that you can see a message displayed in the debug console.
+
+And now a small challenge: 
+- Try to modify the html file yourself so that it does not refer to the main.js file. 
+- Instead, the same JavaScript code that we wrote in main.js should be placed directly after the <script> tag. 
+
+
+TO Remember:
+- empty page : about:blank
+- local file : file:///c:/absolute/path/file.html
+- the html file refer to the file containing our JavaScript code using the <script src=""> tag.
+
+
+string
+======
+A string can be concatenated using the + sign, for example "abc" + "def" will be treated as "abcdef".
+
+
+variables
+=========
+- give a propre and informative names to varibales
+
+declare
+-------
+const : cannot modify the value after intialization (used for value that should never change) 
+var : can declare the same variable name many times
+let: can only declare one variable with the same name
+by default, we can assign a value to a non declared variable
+with "use strict"; we cannot assign a varaible to no declared variable
+
+values
+------
+a variable declared and not initialized => value undefined
+a variable not declared => variable undefined
+
+date types
+---------
+variables in JS language are untyped : weakly/dynamically typed
+type of data : is the set to witch a data are belong
+in JS, main types : number, character string(we say: value of string type, value of the number type)
+implicit conversion: string + number => string + string(number)
+the JavaScript language is weakly typed: we can change the type of data stored in one variable.
+we can divide the data according to their properties: numeric data and text data.
+Numbers can be further divided into, for example, integer numbers and real numbers.
+Each type of data is connected with certain operations we can perform on it. 
+there are also methods of converting data between selected types (e.g. a number can be converted so that it is saved as a string).
+
+In JavaScript, data types are divided into 
+	primitive (or simple) : 
+		we can find numbers and strings of characters
+		only one value will be stored into a variable: atomic value
+	and complex (or composite): 
+		include, for example, arrays and objects.
+		the value stored into a variable consist of many elements of primitive (not complex) types.
+
+Literals
+--------
+In JavaScript, almost each data type has its own literal.
+a literal != a variable
+example: 
+let year = 1990; The digits 1990, written in the code at the place of variable initialization, are a literal that represents a number. 
+console.log(1991);  The value 1990 is a literal (represent a number)
+
+Primitive data types
+====================
+The primitive is a type of data whose values are atomic. This means that the value is one, indivisible element.
+
+In JavaScript, there are six primitive (or simple) data types: 
+Boolean, 
+Number, 
+BigInt, 
+String, 
+Symbol, 
+and undefined. 
+Additionally, the primitive null value is also treated as a separate type. 
+
+
+Boolean
+-------
+The Boolean is a logical data type. 
+It can only take one of two values: true or false.
+commonly referred to as a flag: a variable that signals something that can be either present or absent, enabled or disabled, etc. 
+the boolean flag names are prefixed with "is": example: isGameOver, isDataValid,...
+It’s mainly used as a conditional expression needed for deciding what part of the code should be executed, or how long something should be repeated (this is called a control flow statement)
+logical operations: NOT, AND, and OR  with the symbols !, && and || .
+
+Number
+------
+This is the main numeric type in JavaScript that represents both real numbers (e.g. fractions) and integers. 
+Numbers allow for all typical arithmetic operations: +, -, *, /
+Numbers in JavaScript 
+- are usually presented in decimal form,
+- can be represented in hexadecimal (0x…), octal (0o...) or binary (0b...) form. 
+- can also writed in exponential form:  instead of 9000, we can write 9e3, and instead of 0.00123, we can write 123e-5. 
+
+example
+let a = 10; // decimal - default
+let b = 0x10; // hexadecimal
+let c = 0o10; // octal
+let d = 0b10; // binary
+   
+console.log(a); // -> 10
+console.log(b); // -> 16
+console.log(c); // -> 8
+console.log(d); // -> 2
+   
+let x = 9e3;
+let y = 123e-5;
+console.log(x); // -> 9000
+console.log(y); // -> 0.00123
+
+numbers: 
+- regular numbers
+- special values : Infinity, -Infinity and NaN (not a number). 
+	Infinity, -Infinity : type of Infinity, -Infinity is number
+	NaN: 
+		is not a number, or cannot be converted to a number.
+		arithmetic action cannot be performed
+
+BigInt
+------
+- it allows to write integers of virtually any length.
+- usefull when we need to handle a bigger integers
+- mathematicals operations: the same as the number type
+- BigInt is an integer type, the division result will always be rounded down to the nearest whole number
+- BigInt literals are numbers with the ...n suffix.
+- You cannot use other types in arithmetic operations on BigInts, that is, you cannot add a BigInt and a Number to each other 
+example: 
+let big_number = 1n;
+typeof big_number ; // bigint
+7n / 4n; => 1n
+1000n / 0n; => error (not NaN or Infinity like witrh number type)
+
+String
+------
+- The String type represents a sequence of characters forming a piece of text. 
+- Common operations on texts include concatenation, extraction of the substring, and checking the length of the string.
+	(JavaScript interpreter tries to interpret the given values as numbers, or convert them into numbers. )
+- Strings, like other primitives, are immutable, so when we want to change even one letter in a string, in reality, we create a new string.
+- String literals can be created using single or double quotes, 
+- when you use double quotes to mark a string, you can place single quotes inside the string, and they will be treated as ordinary characters. 
+- to put a single or double quote inside the string, you can also use the escape character – backslash. 
+- the backslash: an escape character 
+	- treated as an ordinary character : "\\"; (let path = "c:\\Windows" => "c:\Windows")	 
+	- control character: "\'"
+- arithmetic operations on String type values => error
+	- if addition operation => concatenation (create new string by combining two input strings)
+		example: let test = "100"+"10" => "10010" (typeof test => string)
+	- if character strings consists of digits => automatic conversion => resulta of arithmitic action : number type value
+		example: let test = "100"-"90";  => 10 (type of test => number)
+	- else => NaN result
+- string interpolarion
+	- introduced to JavaScript in 2015
+	- allows you to treat a character string as a template, in which you can place values in selected places, such as those taken from variables. 
+	- Such a literal is created using backticks (or grave accents) instead of quotation marks. 
+	- The places where values are inserted are marked with curly brackets preceded by a $ sign.
+	- example: 
+	let firstName = "A";
+	let lastName = "B";
+	let name = `Hello ${firstName} ${lastName} !`;
+	
+- Commonly used string methods and properties:
+	- properties: length
+	- methods: charAt(index),slice(beginIndex, [optional] endIndex), split(separator, [optional] limit)sh
+
+Undefined
+---------
+- undefined : is a type 
+- have only one value: undefined 
+- after variable declaration : 
+	- the variable have the default value : undefined => the typeof return undefined
+- unedfined: a value can be assigned to any variable (dont do this: use null value instead)
+- the typeof return undefined if
+	- the variable was declared but not initialized
+	- the variable not declared (not defined)
+- if we have a variable declared but indicate that not contain any thing and the variable is intended to contain a complex type (object)
+	
+Symbol
+------
+- is a type
+- have no litteral value
+- used to garentee an indentifier to be unique ???
+
+Null
+----
+- null : is a no primitive type
+- null: is a primitive value
+- The null value is used to indicate that the variable does not contain anything, and most often it is a variable that is intended to contain values of complex types.
+- undefined vs null
+	- undefined: variable unintialized
+	- null: when we want to explicitly indicate that the variable does not contain anything, we assign it a null value.
+- a variabled assigned with null => typeof null return "object"
+	- the value: null
+	- the type: "object"
+	
+
+
+
+Type conversions
+================
+
+using constructor fonctions to create primitive values
+------------------------------------------------------
+- with a primitive type
+- use a constructor function
+
+use constructor functions to create a primitives: return a primitive from a givien type
+- Boolean:  create and return the value of false.
+- Number: create and return the value 0
+- BigInt: requires you to pass some initial value to it.
+- String: create and return an empty string – primitive "";
+
+using constructor functions for converstion type
+------------------------------------------------
+
+conversion to Number:
+---------------------
+- string => Number: 
+	- examples: "14", "-72.134",scientific notation like "2e3",special number values like "NaN" or "Infinity".
+	Number("Infinity") => Infinity
+	Number("text") => NaN
+	Number("12e3") => 12000
+	Number("11") => 11
+	Number("0x11") => 
+	- examples: numbers in hexadecimal, octal, and binary format. They must be preceded by 0x, 0o, or 0b
+	- if a string : cannot be converted to a special value, NaN (not a number) is returned.
+- BigInt => Number: for large values, part of them can be truncated
+	- Number(14n) => 14
+- Boolean => Number 
+	Number(true) => 1
+	Number(false) => 0
+- undefind => Number : resulat NaN (Not a Number)
+	Number(undefined) => NaN
+- null => Number: converted to 0
+	Number(null) => 0
+
+conversion to Boolean
+---------------------
+0, empty string, NaN, null, unefined => false
+any other value => true
+
+Boolean(0) => false
+Boolean("") => false
+Boolean("text") => true
+
+conversion to BigInt
+--------------------
+- require a Number or String representing a number as a value to be converted.
+- Values for conversion can be given in the default decimal form, as well as in hexadecimal, octal, or binary form
+- conversion to a BigInt will throw an error, and will stop the program when unable to convert a given value.
+BigInt(11) => 11n also BigInt("11") => 11n
+BigInt(0x11) => 17n also BigInt("0x11") => 17n
+BigInt(true) => 1n
+BigInt(null) => Uncaught TypeError: Cannot convert null to a BigInt
+BigInt(undefined) => Uncaught TypeError: Cannot convert undefined to a BigInt
+BigInt(NaN) => Uncaught RangeError: The number NaN cannot be converted to a BigInt because it is not an integer
+
+
+Implicit Conversions
+--------------------
+- Number + string or string + Number => string + string => concatenation (42 + "1" => "421")
+	tips:
+	42+ "1" => "421"
+	42+ Number("1") => 43 
+	42+ +"1" => 43
+- Number - string or string - Number => Number - Number
+
+
+
+
+Complex data types
+==================
+- complex types: objects and arrays
+
+Object
+------
+- can be used as structure : record
+- record : collection of named fields (or properties) (filed: name/key and value)
+- object (record) allow to store multiple values of different types in one place
+- The simplest reason for using them may be the desire to store several values in one place, which are linked to each other for some reason.
+Example: collect information about the users of our system. 
+Information about a single user will consist of their first name, last name, age, and email address.
+
+- create an object: with {}
+example: 
+let obj = {}; //empty object (no fields in it)
+typeof obj => object
+
+// keys : without "" (its like a variable name inside an other variable) 
+let obj1 = {
+a:1,
+b:"abc"
+}
+
+- to refer to an object property: dot notation (object.property)
+example:
+console.log(obj1.a);
+
+- we can read/write/add/delete properties to/from an object
+- if we attempt to modify the property the interpreter does not find the key we specify, it will create it.
+example: 
+console.log(obj1.a) // read exisiting property
+obj1.b = "xyz" // modifiy exisiting property key
+obj1.c = 123 // modify a no exisiting key : add this new key and value (property)
+delete obj1.c // delete the c property from the obj1 object using the delete operator
+obj1.c // undefined => access to unexisitng property
+
+
+
+Array
+-----
+- complex data type that can be used to store a data collection. 
+- array elements can be any data (of any type), including objects
+- Usually, we store the same type of data in one array, but as we mentioned earlier, this is not required by JavaScript. 
+So we can easily create an array containing elements of different types.
+example: 
+let values = ["Test", 7, 12.3, false];
+- we only store values, without the associated names (i.e. the keys).
+- elements of the array are ordered 
+
+create an array
+- to create arrays in JavaScript : use square brackets (it’s an array literal)
+- create empty array: []
+- create an array with some initial elements: 
+
+Referring to a particular array element, we use bracket notation : A[index]
+- the index (item posotion) starts form 0
+example
+let A  = ["Sunday","Monday"];
+A[0]; // read
+A[0] = "" // write
+A = []
+A[0] // undefined : read non-existing element
+
+- to add element to an existing array (while the program is running): assign a new value to a specific position using bracket notation.
+example
+let A = [];
+A[0] = "a";
+// we don't have to fill the array with elements one by one – you can leave empty spaces in it.
+A[2] = "c"; // leaving position 1 empty
+A[1]; => undefined
+
+- we can also store arrays as elements of the array:
+
+example: an array declaration containing two other arrays as its components.
+Note: is JS, the internal arrays do not have to be the same length
+
+let names = [["Olivia", "Emma", "Mia", "Sofia"], ["William", "James", "Daniel"]];
+console.log(names[0]); // -> ["Olivia", "Emma", "Mia", "Sofia"]
+console.log(names[0][1]); // -> Emma
+let femaleNames = names[0];
+console.log(femaleNames[0]); // -> Olivia
+
+example of objects inside array
+let users =[
+    {
+    name: "Calvin",
+    surname: "Hart",
+    age: 66,
+    email: "CalvinMHart@teleworm.us"
+    },
+    {
+    name: "Mateus",
+    surname: "Pinto",
+    age: 21,
+    email: "MateusPinto@dayrep.com"
+    }
+];
+   
+console.log(users[0].name); // -> Calvin
+console.log(users[1].age); // -> 21
+
+// add a new user to the array: assigning a new element to a free index
+users[2] = {
+    name: "Irene",
+    surname: "Purnell",
+    age: 32,
+    email: "IreneHPurnell@rhyta.com"
+   
+}
+   
+console.log(users[0].name); // -> Calvin
+console.log(users[1].name); // -> Mateus
+console.log(users[2].name); // -> Irene
+
+- generally, in JavaScript, everything except primitives is an object. 
+- Arrays are also treated as a special kind of object. 
+example
+let days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+typeof days => object
+
+- to make sure that the variable contains an array: use the instanceof operator
+console.log(days instanceof Array); // -> true
+
+- an array is implemented as an object in JavaScript: have methods and properties
+example of useful methods that help us to work with arrays: combining arrays, cutting out elements, sorting, or filtering.
+examples
+let names = ["Olivia", "Emma", "Mateo", "Samuel"];
+// array properties
+console.log(names.length); // -> 4
+
+- array methods
+
+// indexOf: return index of of the first element found or -1 if not found
+console.log(names.indexOf("Mateo")); // -> 2
+
+// push: add en element at the end of the array
+names.push("Amelia");
+
+// unshift: add an element at the beginig of the array
+names.unshift("anis") // The index of the new element is 0.
+
+// pop: remove and return the last element from the array 
+let name = names.pop();
+
+// shift: remove and return the element from the beginning of the array (with the index 0).
+let name = names.shift();
+
+//reverse: reverses the order of elements in the array.
+names.reverse();
+
+// slice: create a new array from selected elements of the original array (does not affect the original array).
+takes either one or two integer values as arguments.
+0 < i : from i to the end (A.slice(2) : copy elements from 2 to the end)
+0 < i < j : from i to j-1 (A.slice(1,3) : copy the elements at index 1 and 2)
+0 < i ; k < 0 : from i to the end except the last k elements (A.slice(1, -3) : copy elements from 1 to -3 : do not copy the last three elements)
+k < 0 : the last k elements (A.slice(-2) : copy the last 2 elements) 
+
+// concat: creates a new array by attaching elements from the 2 arrays
+let A3 = A1.concat(A2)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+scope
+=====
+after declaring a variable : the variable have a scope
+a scope : the part of the code where the varibale was declared and can be used
+by default: the scope of a variable is a global : can be used in the whole code of the program
+the variable scope can be influenced by some code elements : functions, blocks, conditional instructions, loops, ...
+
+program blocks
+--------------
+a program can be separated into blocks using curly brackets
+program blocks can be nested : {block1 {block2}} to increase readability
+good practice by code editors : add indentation before each block
+{
+	block1
+	{
+		block2
+	}
+}
+
+
+rules of varaible scopes
+------------------------
+declare variable/constant
+with let/const
+- outside a block  => global scope => global variable/constant
+- inside a block => local scope => local variable/constant => visible inside the block where it declared and insed the nested blocks
+with var
+- inside/outside a block => always global scope => with var, blocks like they not exists (except var inside function => local variable)
+- inside a function => local variable: local scope
+
+
+
+
+functions
+=========
+
+code = pieces = functions, blocks, ...
+one piece = one task
+if one piece of code will be used many times
+solution 1: copy past 
+- size of program will grow
+- make some changes in many places
+
+solution 2: function
+function: a named piece of code
+to use the same code many times : refer to it with it name : we call the function
+
+declaration
+-----------
+function f(){
+	console.log("test")
+}
+
+if() {}  : conditional block
+function f(){} : function block
+
+hoisting
+========
+The JavaScript interpreter scans the program before running it, looking for errors in its syntax, among other things,
+It searches for all variable declarations and moves them to the beginning of the range in which they were declared (to the beginning of the program if they are global, to the beginning of the block if it is a local let declaration, or to the beginning of the function if it is a local var declaration). 
+
+principle of hoisting
+---------------------
+the declaration has been moved by the interpreter to the beginning of the range 
+Hoisting only concerns the declaration, not initialization. 
+
+
+operators
+=========
+an operator is a symbol or name that represents some action to be performed on the indicated arguments.
+
+typeof
+------
+is a unary operator
+return a string : the type of data indicated as a given argument
+All possible return values of the typeof operator are:
+"undefined"
+"object"
+"boolean"
+"number"
+"bigint"
+"string"
+"symbol"
+"function"
+
+
+comments
+========
+- is plain text, totally ignored by the JavaScript interpreter, 
+- usually serve to explain a certain piece of code,
+- let you to imporve your work with the code by making it more readable
+- help developers to express their intent for a given piece of code
+- two types of comments: single-line and mutli-line comments 
+
+make comment easy to read
+-------------------------
+- some comments make the code more harder to read
+- Use comments when the code alone is not clear.
+- Explain why, not just what the code does.
+- Add comments when the code behaves unexpectedly or differently than expected to show that it is intentional.
+- Remember that other developers may need to read and maintain your code.
+- Even your own code can be difficult to understand months later.
+- Clear comments improve readability, maintenance, and collaboration.
+- Avoid unnecessary comments when the code is already self-explanatory.
+
+single-line comment
+-------------------
+- Any code placed to the right of the double slash will be ignored by the interpreter. 
+- example: // this is a single line comment
+- tips: comment/uncomment using code editors (sublime text, vscode, ...) short cuts : ctrl + / : will comment/uncomment selected lines
+
+multi-line comments
+-------------------
+- known as block comments
+- is a comment that span multiple lines
+- also allow to place a comment inside a linee
+- created with: salsh and asterisk /* at the start and at the end of the comment
+- example 1
+/*
+this is a block comment
+and it can 
+span multiple lines
+*/
+- example 2
+let x /* because no better name*/ x = 10;
+console.log(x);
+
+use comments for documentation
+-------------------------------
+- Comments can be used to document code and explain how it works.
+- Document functions, including:
+What the function does
+Required parameters
+Returned values
+- Files may include headers with information such as:
+Author
+License
+Change history
+- Tools like JSDoc can automatically generate documentation from specially formatted comments.
+Properly written JSDoc comments can generate a website with detailed project documentation.
+This documentation can include function descriptions, parameters, return values, and more.
+
+comments used for Code Toggle
+-----------------------------
+Commenting out code lets you temporarily disable code without deleting it.
+It is useful when:
+You think a piece of code is causing a problem.
+You want to test different options quickly.
+You want to isolate the source of an issue.
+Use single-line comments (//) to disable individual lines.
+Use block comments (/* ... */) to disable larger sections or entire functions.
+This technique is especially helpful for debugging and troubleshooting code.
+
+
+REMEMBER
+*********
+* the code should be readable not only to the interpreter, but also to people.
+* ALWAYS to declare variables before using them.
+* name them according to their purpose (example: unit****, quantity, ***Price, ***Value,,***Price, numberOf****, total,....)t	
+* Try to use the keywords let and const, not the word var (var make local variable as global).
+
+objectif:
+- understanding the examples found in various sources,
+
+
+example de projets en JS
+- library of books about JavaScript programming.
