@@ -1,0 +1,30 @@
+@import url(../css/base.css);
+@import url(../css/container.css);
+@import url(../css/form.css);
+@import url(../css/box.css);
+@import url(../css/table.css);
+@import url(../css/helpers.css);
+@import url(../css/flex.css);
+
+
+
+
+
+
+
+
+/*------ Actions -----------*/
+.delete, .edit{
+  font-size: 1.5rem;
+  cursor: pointer;
+  border-radius: 50%;
+  height: 24px;
+  width: 24px;
+  display: inline-block;
+}
+
+.delete:hover, .edit:hover{
+  text-shadow: 2px 2px 3px silver;
+  color: indianred;
+}
+

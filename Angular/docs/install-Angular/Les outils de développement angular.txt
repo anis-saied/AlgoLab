@@ -1,5 +1,0 @@
-Les outils de développement angular
-------------------------------------------
-
-navigateur : Chrome
-extension : Augury : système de déboguage spécifique pour angular

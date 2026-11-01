@@ -1,0 +1,14 @@
+.box{
+  border: 1px solid;
+  padding: 0.5em;
+}
+
+.box-radius-8{
+  border-radius: 8px;
+}
+
+.silver-dashed-box {
+  border: 1px dashed silver;
+  padding: 1rem;
+  border-radius: 8px;
+}

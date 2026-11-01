@@ -1,4 +1,0 @@
-apt	Advanced Package Tool (APT)
-	used in Ubuntu and other Debian-based Linux distributions for package management
-	
-tty	Processes associated with tty are typically related to text-based console sessions, while those associated with pts are related to terminal emulators or terminal sessions within a graphical environment.

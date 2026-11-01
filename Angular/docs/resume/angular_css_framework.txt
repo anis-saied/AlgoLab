@@ -1,6 +1,0 @@
-If you're developing @angular apps, what's your preferred CSS framework? 
-
-#Angular #CSS
-Bootstrap
-Angular Material
-Semantic UI

@@ -1,0 +1,41 @@
+
+table {
+  border-collapse: collapse;
+  border: 1px solid gray;
+}
+
+thead tr{
+    border-bottom: 1px solid silver;    
+}
+
+
+th {
+    width: 100px;
+    padding-bottom: 0.5rem;    
+}
+
+th:not(:last-child), td:not(:last-child){
+    border-right: 1px solid silver;
+}
+
+td{
+    font-family: monospace;
+
+    padding: 5px;
+}
+
+tr:nth-child(even){
+    background-color: rgba(192, 192, 192, 0.255);
+}
+
+tr.selected-row {
+  background-color: #ffe6e6;
+  font-weight: bold;
+  border: 2px solid red;
+}
+
+
+tbody tr:hover{
+    background-color: rgba(205, 92, 92, 0.277);
+    cursor: pointer;
+}

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Session Storage</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/order-script.js"></script>
+</head>
+
+<body onload="init()">
+    <form class="silver-dashed-box">
+        <section>
+            <div class="form-line">
+                <label for="reference">Référence</label>
+                <input type="text" name="reference" id="reference" size="12" placeholder="Référence">
+            </div>
+            <div class="form-line">
+                <label for="quantity">Quantité</label>
+                <input type="text" name="quantity" id="quantity" size="2">
+            </div>
+        </section>
+        <h3>Votre Commande :</h3>
+        <table id="order"  tabindex="0">
+            <thead>
+                <tr>
+                    <th>
+                        Référence
+                    </th>
+                    <th>
+                        Quantité
+                    </th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody>
+            </tbody>
+        </table>
+        <input type="button" value="Commander" onclick="doSetItem()">
+        <input type="button" value="clear" onclick="clearOrder()">
+    </form>
+</body>
+
+</html>

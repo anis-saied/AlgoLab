@@ -1,0 +1,35 @@
+/* 1. RESET COMPLET (Suppression des styles par défaut des navigateurs) */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* 2. VARIABLES GLOBALES (Design System) */
+:root {
+  --primary-color: #3498db;
+  --text-color: #333333;
+  --bg-color: #ffffff;
+  --font-main: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans",
+    Arial, sans-serif;
+  --font-size-main: 1rem;
+}
+
+/* 3. STYLES DE BASE DES BALISES HTML */
+body {
+  font-family: var(--font-main);
+  font-size: var(--font-size-main);
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+
+a{
+  text-decoration: none;
+}

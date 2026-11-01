@@ -1,0 +1,38 @@
+fieldset {
+    padding: 1em;
+}
+
+legend{
+    font-weight: bold;
+}
+
+legend::after{
+    content: ' :';
+}
+
+.form-line {
+  display: flex;
+  gap: 1rem;
+  align-items: center;  
+  margin-bottom: 0.5em;
+}
+
+label {
+  min-width: 100px;
+}
+
+label::after{
+    content: ' :';
+    float: right; /*make the ':' on the right*/
+}
+
+input[type="button"]{
+    margin-top: 1rem;
+    border-radius: 8px;
+    padding: 0.25rem 0.5rem;
+    color: indianred;
+    border: 1px solid silver;
+    background-color: whitesmoke;
+    font-weight: 600;
+    cursor: pointer;
+}
