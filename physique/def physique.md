@@ -1,0 +1,43 @@
+- - 
+
+- électrisation: passage d'un courant électrique dans le corps
+  - électrocution: électrisation entraînant un décès
+- Décharge atmosphérique 
+  - se produit entre deux régions de l'atmosphère de potentiels électriques opposés (2 nuages, nuage et sol)
+- particule
+  - particule chargée électriquement
+  - particule au repos ou en mouvement
+  - interaction entre particules chargées : électromagnétisme
+- charge électrique:
+  - positive
+  - négative
+  - Les charges opposées s'attirent,
+  - Les charges similaires se repoussent.
+
+- Phénomène d'électrisation: transferts d'électrons d'un corps à un autre
+- un corps se charge d'électricité par 
+  - frottement
+  - contact
+- un corps qui cède les électrons : devient chargé positivement
+- un corps qui reçoit les électrons : devient chargé négativement
+- La quantité des électrons passés d'un corps à un autre se mesure en **Coulomb** C
+- Électromètre: mesure la charge électrique en Coulomb C. 
+- Électroscope
+  - appareil 
+  - permet de savoir si un corps est chargé ou non (détecte la présence d'électricité) 
+  - mesure les charges qu'il contient
+- Corps
+  - Corps conducteur: permet le passages des électrons
+  - Corps isolant : ne permet pas le passage des électrons
+- frottement : génération d'une électricité statique
+- L**'électricité statique** est une forme d'électricité qui se produit  lorsque des charges électriques sont générées et restent immobiles sur  un objet. 
+  - L'humidité peut dissiper l'électricité statique plus rapidement.
+- Elle se distingue de l'**électricité dynamique**, qui est associée au mouvement continu des charges électriques à travers un conducteur,  comme c'est le cas dans un circuit électrique.
+- **Décharge par contact avec un objet neutre :** Lorsque le stylo chargé électriquement (par frottement avec un matériau tel que le tissu en laine ) entre en contact avec un objet neutre (non chargé), une partie de la charge peut être transférée à cet objet. 
+  - Si le bout de papier a été attiré par le stylo, il pourrait avoir pris  une petite charge opposée. 
+  - Une fois que le stylo et le papier ont  atteint un **équilibre électrique**, l'attraction peut diminuer et le papier tombe.
+
+- **Décharge dans l'air :** Les charges électriques peuvent  également se dissiper dans l'air. S
+  - i l'environnement est humide,  l'humidité peut aider à dissiper les charges plus rapidement.
+
+- mouvement => chaleur => détectée par détecteur de mouvement (capteur infrarouge passif)
